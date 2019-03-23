@@ -1,0 +1,27 @@
+/* home/information/information.wxss */
+page{
+    background:#fff;
+    font-family: "微软雅黑";
+}
+.sszxContent{
+    width:90%;
+    margin:30rpx auto 0;
+}
+.sjzxTit{
+    font-size:32rpx;
+}
+.sjzxSource{
+    padding-top:20rpx;
+    margin-bottom:28rpx;
+    font-size:24rpx;
+    color:#999;
+}
+.sjzxCon{
+    font-size:28rpx;
+    color:#999;
+}
+.sjzxCon view{
+    text-indent:52rpx;
+    line-height:50rpx;
+    margin-bottom:30rpx;
+}

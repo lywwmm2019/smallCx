@@ -1,0 +1,150 @@
+page{
+    background:#fff;
+    font-family: "微软雅黑";
+}
+.jrclPart{
+    height:68rpx;
+}
+.jrclPart .jrcl{
+    height:68rpx;
+    border-top:1px solid #e0e0e0;
+    border-bottom:1px solid #eee;
+    font-size:28rpx;
+    line-height:68rpx;
+    display: box;
+    -webkit-box-align: center;
+}
+.jrclPart .jrcl .jrclLogo{
+    width:30rpx;
+    height:30rpx;
+    margin:0 15rpx 0 15rpx;
+}
+.jrclList{
+    padding-top:28rpx;
+    border-bottom:1px solid #c9c9c9;
+    height:163rpx;
+}
+.jrclList .jrclPic{
+    width:242rpx;
+    height:137rpx;
+    margin:0 12rpx 50rpx 28rpx;
+    float:left;
+}
+.jrclList .jrclFont{
+    float:left;
+    width:410rpx;
+}
+.jrclList .jrclFont .jrclTit{
+    font-size:26rpx;
+    color:#222;
+}
+.jrclList .jrclFont .jrclCon{
+    font-size:24rpx;
+    color:#8c8c8c;
+    line-height:40rpx;
+}
+.jrclList .jrclFont .time{
+    font-size:22rpx;
+    color:#8c8c8c;
+    text-align:right;
+}
+.footer{
+    height:44rpx;
+    padding:25rpx 0;
+    width:100%;
+    border-top:1px solid #c9c9c9;
+    position:fixed;
+    bottom:0;
+    left:0;
+    display: flex;
+    background:#fff;
+}
+.footer .part{
+    flex:1;
+    border-right:1px solid #b9b9b9;
+    text-align: center;
+    font-size:30rpx;
+    color:#222;
+}
+.footer .parton{
+    flex:1;
+    border-right:1px solid #b9b9b9;
+    text-align: center;
+    font-size:30rpx;
+    color:#ee404a;
+}
+.footer .nobor{
+    border-right:none;
+}
+.footer .part text,.footer .parton text{
+    font-size:18rpx;
+    margin-right:10rpx;
+    border:1px solid #999;
+    padding:0 6rpx;
+}
+.footer .nobor text{
+    font-size:30rpx;
+    border:none;
+    padding:0;
+}
+.pop{
+    width:98%;
+    height:80rpx;
+    background:#000;
+    position:fixed;
+    top:-80rpx;
+    left:0;
+    line-height:80rpx;
+    color:#fff;
+    padding-left:2%;
+    font-size:28rpx;
+}
+#mask{
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity: 0.5;
+    position:fixed;
+    top:0;
+    left:0;
+}
+.maskWin{
+    position:fixed;
+    bottom:0;
+    left:0;
+    z-index:9;
+}
+.maskWin navigator{
+    width:700rpx;
+    height:80rpx;
+    background:#fff;
+    border-bottom:1px solid #e0e0e0;
+    margin-left:25rpx;
+    text-align: center;
+    color:#448bea;
+    line-height:80rpx;
+    font-size:32rpx;
+}
+.maskWin .nav1{
+    border-top-left-radius:14rpx;
+    border-top-right-radius:14rpx;
+}
+.maskWin .nav2{
+    border-bottom-left-radius:14rpx;
+    border-bottom-right-radius:14rpx;
+    border-bottom:none;
+    margin-bottom:15rpx;
+}
+.maskWin .close{
+    width:700rpx;
+    height:80rpx;
+    background:#fff;
+    margin-left:25rpx;
+    text-align: center;
+    color:#599cf5;
+    line-height:80rpx;
+    font-size:32rpx;
+    font-weight: bold;
+    border-radius: 14rpx;
+    margin-bottom:22rpx;
+}

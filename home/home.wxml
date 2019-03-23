@@ -1,0 +1,167 @@
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"  style="overflow:hidden;">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+        <image src="{{item}}" class="slide-image" mode="scaleToFill" style="width:100%;height:150px;"/>
+    </swiper-item>
+  </block>
+</swiper>
+<swiper class="market"  duration="{{duration}}"  style="overflow:hidden;">
+    <swiper-item>
+        <navigator url="detail/detail" class="marketClass">
+            <view class="maName">粤贵银</view>
+            <view class="maData">208.97</view>
+            <view class="maData2">
+                <text>+23</text>
+                <text>+0.63%</text>
+            </view>
+        </navigator>
+        <navigator url="detail/detail" class="marketClass">
+            <view class="maName">粤贵铂</view>
+            <view class="maData">693601</view>
+            <view class="maData2">
+                <text>+1.39</text>
+                <text>+0.67%</text>
+            </view>
+        </navigator>
+        <navigator url="detail/detail" class="marketClass">
+            <view class="maName">粤贵银锭</view>
+            <view class="maData">693601</view>
+            <view class="maData2">
+                <text>+1.39</text>
+                <text>+0.67%</text>
+            </view>
+        </navigator>
+    </swiper-item>
+    <swiper-item>
+        <navigator url="detail/detail" class="marketClass">
+            <view class="maName">粤贵铂</view>
+            <view class="maData">208.97</view>
+            <view class="maData2">
+                <text>+23</text>
+                <text>+0.63%</text>
+            </view>
+        </navigator>
+        <navigator url="detail/detail" class="marketClass">
+            <view class="maName">粤贵银锭</view>
+            <view class="maData">693601</view>
+            <view class="maData2">
+                <text>+1.39</text>
+                <text>+0.67%</text>
+            </view>
+        </navigator>
+        <navigator url="../quotation/add/add" class="marketClass marketClass2 noBorder">
+            <view class="linebo"></view>
+            <image src="../images/home-add.png" mode="aspectFit" style="width:72rpx;height:72rpx;"/>
+        </navigator>
+    </swiper-item>
+</swiper>
+<view class="item">
+    <navigator url="../live/live" hover-class="none" redirect="false">
+        <view class="itemTit"><image src="../images/home-live.png" class="itemPic"/>视频直播</view>
+        <view class="itemCont">16:05-17:00 《投资三国》</view>
+    </navigator>
+    <navigator url="../open-account/open-account" class="navnoBorder"  hover-class="none" redirect="">
+        <view class="itemTit"><image src="../images/home-kh.png" class="itemPic"/>快速开户</view>
+        <view class="itemCont">立即享受尊贵权限</view>
+    </navigator>
+</view>
+<navigator url="../calendar/calendar" class="cjrl" hover-class="none" redirect="false" redirect="">
+    <view class="cjrlTit fl"><image src="../images/home-cjrl.png" class="cjrlPic"/>财经日历</view>
+    <swiper class="fr moveFont" bindchange="bindChange" autoplay="true" vertical="竖显示" current="{{current1}}" interval="5000" duration="{{time}}">
+        <swiper-item><text>上周买进外国债券</text><text class="fr date">11-25 9:00</text></swiper-item>
+        <swiper-item><text>10月全国核心消费者购物</text><text class="fr date">11-24 21:00</text></swiper-item>
+        <swiper-item><text>上周货币供给M1变动</text><text class="fr date">11-23 5:30</text></swiper-item>
+        <swiper-item><text>10月贸易帐</text><text class="fr date">11-22 5：45</text></swiper-item>
+    </swiper>
+</navigator >
+<view class="nav">
+    <view bindtap="selected" data-current="0"  hover-class="back" class="default{{currentTab==0?'on':''}}">实时资讯<text class="default1{{currentTab==0?'on':''}}"></text></view>
+    <view bindtap="selected" data-current="1" hover-class="back"  class="default{{currentTab==1?'on':''}}">专家观点<text class="default1{{currentTab==1?'on':''}}"></text></view>
+</view>
+<swiper class="anOut" current="{{currentTab}}" bindchange="bindCha">
+        <swiper-item class="tabCon" >
+            <navigator url="information/information" class="list1" hover-class="gray">
+                <image src="../images/home-pic.png" mode="aspectFit" />
+                <view class="fl listRig">
+                    <view class="listTit">明富周报：利好预期逐步兑现</view>
+                    <view class="listCon">上周油价再次走强，连续多个交易日不断攀升，周涨幅创下近期之最。</view>
+                    <view class="listDea"><text class="listbtn1">大宗</text><text class="listbtn2">策略</text><text class="dateTime">8-24 11:10</text></view>
+                </view>
+            </navigator>
+            <navigator url="information/information" class="list1" hover-class="gray">
+                <image src="../images/home-pic.png" mode="aspectFit"/>
+                <view class="fl listRig">
+                    <view class="listTit">明富周报：利好预期逐步兑现</view>
+                    <view class="listCon">上周油价再次走强，连续多个交易日不断攀升，周涨幅创下近期之最。</view>
+                    <view class="listDea"><text class="listbtn1">大宗</text><text class="listbtn2">策略</text><text class="dateTime">8-24 11:10</text></view>
+                </view>
+            </navigator>
+            <navigator url="information/information" class="list1" hover-class="gray">
+                <image src="../images/home-pic.png" mode="aspectFit"/>
+                <view class="fl listRig">
+                    <view class="listTit">明富周报：利好预期逐步兑现</view>
+                    <view class="listCon">上周油价再次走强，连续多个交易日不断攀升，周涨幅创下近期之最。</view>
+                    <view class="listDea"><text class="listbtn1">大宗</text><text class="listbtn2">策略</text><text class="dateTime">8-24 11:10</text></view>
+                </view>
+            </navigator> 
+            <navigator url="information/information" class="list1" hover-class="gray">
+                <image src="../images/home-pic.png" mode="aspectFit"/>
+                <view class="fl listRig">
+                    <view class="listTit">明富周报：利好预期逐步兑现</view>
+                    <view class="listCon">上周油价再次走强，连续多个交易日不断攀升，周涨幅创下近期之最。</view>
+                    <view class="listDea"><text class="listbtn1">大宗</text><text class="listbtn2">策略</text><text class="dateTime">8-24 11:10</text></view>
+                </view>
+            </navigator>
+            <navigator url="information/information" class="list1" hover-class="gray">
+                <image src="../images/home-pic.png" mode="aspectFit"/>
+                <view class="fl listRig">
+                    <view class="listTit">明富周报：利好预期逐步兑现</view>
+                    <view class="listCon">上周油价再次走强，连续多个交易日不断攀升，周涨幅创下近期之最。</view>
+                    <view class="listDea"><text class="listbtn1">大宗</text><text class="listbtn2">策略</text><text class="dateTime">8-24 11:10</text></view>
+                </view>
+            </navigator>
+        </swiper-item>
+        <swiper-item class="tabCon" >
+            <navigator url="expertOption/expertOption" class="list1">
+                <image src="../images/home-detail-jrcl.png" mode="aspectFit"/>
+                <view class="fl listRig">
+                    <view class="listTit"><text>沈杨</text><text class="listwork">策略分析师</text></view>
+                    <view class="listCon">具有证券投资咨询执业资格，毕业于北京理工大学，企业管理硕士。</view>
+                    <view class="listDea"><text class="dateTime dateTime2">2016-8-24 11:10</text></view>
+                </view>
+            </navigator>
+            <navigator url="expertOption/expertOption" class="list1">
+                <image src="../images/home-detail-jrcl.png" mode="aspectFit"/>
+                <view class="fl listRig">
+                    <view class="listTit"><text>沈杨</text><text class="listwork">策略分析师</text></view>
+                    <view class="listCon">具有证券投资咨询执业资格，毕业于北京理工大学，企业管理硕士。</view>
+                    <view class="listDea"><text class="dateTime dateTime2">2016-8-24 11:10</text></view>
+                </view>
+            </navigator>
+            <navigator url="expertOption/expertOption" class="list1">
+                <image src="../images/home-detail-jrcl.png" mode="aspectFit"/>
+                <view class="fl listRig">
+                    <view class="listTit"><text>沈杨</text><text class="listwork">策略分析师</text></view>
+                    <view class="listCon">具有证券投资咨询执业资格，毕业于北京理工大学，企业管理硕士。</view>
+                    <view class="listDea"><text class="dateTime dateTime2">2016-8-24 11:10</text></view>
+                </view>
+            </navigator>
+            <navigator url="expertOption/expertOption" class="list1">
+                <image src="../images/home-detail-jrcl.png" mode="aspectFit"/>
+                <view class="fl listRig">
+                    <view class="listTit"><text>沈杨</text><text class="listwork">策略分析师</text></view>
+                    <view class="listCon">具有证券投资咨询执业资格，毕业于北京理工大学，企业管理硕士。</view>
+                    <view class="listDea"><text class="dateTime dateTime2">2016-8-24 11:10</text></view>
+                </view>
+            </navigator>
+            <navigator url="expertOption/expertOption" class="list1">
+                <image src="../images/home-detail-jrcl.png" mode="aspectFit"/>
+                <view class="fl listRig">
+                    <view class="listTit"><text>沈杨</text><text class="listwork">策略分析师</text></view>
+                    <view class="listCon">具有证券投资咨询执业资格，毕业于北京理工大学，企业管理硕士。</view>
+                    <view class="listDea"><text class="dateTime dateTime2">2016-8-24 11:10</text></view>
+                </view>
+            </navigator>
+        </swiper-item>
+</swiper>

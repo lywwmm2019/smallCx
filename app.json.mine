@@ -1,0 +1,57 @@
+{
+  "pages":[
+    "live/live",  
+    "live/list/list",
+    "live/detail_talk/detail_talk",
+    "live/teacherdetail/teacherdetail",
+    "live/dakadetail/dakadetail", 
+
+    "home/home",
+    "quotation/quotation",                 	  
+    "service/service",  	  
+    "personal/personal"	     
+  ],
+  "window":{
+    "navigationBarBackgroundColor":"#ed3f48",
+    "navigationBarTextStyle":"#fff",
+    "navigationBarTitleText":"首页",
+    "backgroundColor":"#dfdfdf"
+  },
+  "tabBar": {
+    "selectedColor":"#ed3f48",
+ 
+    "list": [{
+      "pagePath": "home/home",
+      "iconPath":"images/bar-home-default.png",
+      "selectedIconPath":"images/bar-home-hover.png",
+      "text": "首页"
+    }, {
+      "pagePath": "live/live",
+      "text": "直播",
+      "iconPath":"images/bar-live-default.png",
+      "selectedIconPath":"images/bar-live-hover.png"
+    },
+    {
+      "pagePath": "quotation/quotation",
+      "text": "行情",
+      "iconPath":"images/bar-quotation-default.png",
+      "selectedIconPath":"images/bar-quotation-hover.png"
+    },
+    {
+      "pagePath": "service/service",
+      "text": "客服",
+      "iconPath":"images/bar-service-default.png",
+      "selectedIconPath":"images/bar-service-hover.png"
+    },
+    {
+      "pagePath": "personal/personal",
+      "text": "我的",
+      "iconPath":"images/bar-my-default.png",
+      "selectedIconPath":"images/bar-my-hover.png"
+    }
+    ]
+  }
+ 
+}
+
+

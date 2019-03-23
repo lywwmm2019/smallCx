@@ -1,0 +1,65 @@
+page{
+    background:#fff;
+    font-family: "微软雅黑";
+}
+.fr{
+    float:right;
+}
+.list1{
+    width:100%;
+    height:200rpx;
+    border-bottom:1px solid #e0e0e0;
+}
+.list1 .listRig{
+    width:55%;
+    margin-right:5%;
+}
+.list1 image{
+    width:223rpx;
+    height:168rpx;
+    float:left;
+    margin:20rpx 0 0 30rpx;
+}
+.list1 .listTit{
+    font-size:30rpx;
+    color:#222;
+    margin-top:23rpx;
+}
+.list1 .listCon{
+    color:#666;
+    font-size:24rpx;
+    line-height:36rpx;
+}
+.list1 .listwork{
+    font-size:24rpx;
+    color:#666;
+}
+.viewList{
+    width:94%;
+    margin:0 auto;
+    padding-top:20rpx;
+    display: flex;
+}
+.viewList .viewTit{
+    float:left;
+    font-size:30rpx;
+    flex:1.5;
+}
+.viewList .viewTit .viewDate{
+    font-size:22rpx;
+}
+.viewList .viewRig{
+    float:right;
+    flex:8;
+}
+.viewList .viewRig .viewTime{
+    font-size:24rpx;
+    color:#999;
+    padding-top:6rpx;
+}
+.viewList .viewRig .viewCont{
+    padding-top:20rpx;
+    font-size:26rpx;
+    line-height:40rpx;
+    margin-bottom:30rpx;
+}

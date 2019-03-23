@@ -1,0 +1,175 @@
+<view class="year">
+    <text>{{nowyear}}年{{nowmonth}}月</text>
+    <view class="bor"></view>
+</view>
+<block>
+    <view class="move" bindtouchstart="drawerStart" bindtouchmove="drawerMove" id="" >
+    <view class="moveOut" >
+        <block wx:for="{{data}}">
+            <view class="date" >
+                <view class="dateNum{{today==index?'on':''}}" data-year="{{curYear[index]}}"  data-month="{{curMonth[index]}}" data-current="{{index}}" bindtap="colorChange">{{item}}</view>  
+            </view>
+        </block>
+    </view>
+    <view class="moveOut">
+        <block wx:for="{{data2}}">
+            <view class="date">
+                <view class="day{{today==index?'on':''}}" data-year="{{curYear[index]}}" data-month="{{curMonth[index]}}" data-current="{{index}}" bindtap="colorChange">{{item}}</view>
+            </view>
+        </block>
+    </view>
+    </view>
+</block>
+<swiper style="height:{{windowHeight-96}}px;overflow:hidden;" current="{{today}}"  duration="300"  bindchange="swiperChange">
+    <block>
+        <swiper-item>
+            <scroll-view scroll-y="true" style="height:100%">
+                <view class="listItem" wx:for="list1[0]" wx:for-item="7">
+                    <view class="listInfor">
+                        <image src="{{list1[0].src}}" class="listPic" />
+                        <view class="listCont">
+                            <view class="listTit">{{list1[0].title}}</view>
+                            <view class="listTime">{{list1[0].time}}</view>
+                        </view>
+                    </view>
+                    <view class="listData">
+                        <view class="listDataOut">
+                            前值：<text>{{list1[0].prev}}</text>
+                        </view>
+                        <view class="listDataOut">
+                            预测：<text>{{list1[0].expect}}</text>
+                        </view>
+                        <view class="listDataOut listDataOut2">
+                            实际：<text>{{list1[0].sj}}</text>
+                        </view>
+                    </view>
+                </view>
+            </scroll-view>
+        </swiper-item>
+        <swiper-item>
+            <scroll-view scroll-y="true" style="height:100%">
+                <view class="listItem" wx:for="list1[1]" wx:for-item="3">
+                        <view class="listInfor">
+                            <image src="{{list1[1].src}}" class="listPic" />
+                            <view class="listCont">
+                                <view class="listTit">{{list1[1].title}}</view>
+                                <view class="listTime">{{list1[1].time}}</view>
+                            </view>
+                        </view>
+                        <view class="listData">
+                            <view class="listDataOut">
+                                前值：<text>{{list1[1].prev}}</text>
+                            </view>
+                            <view class="listDataOut">
+                                预测：<text>{{list1[1].expect}}</text>
+                            </view>
+                            <view class="listDataOut listDataOut2">
+                                实际：<text>{{list1[1].sj}}</text>
+                            </view>
+                        </view>
+                    </view>
+                </scroll-view>
+        </swiper-item>
+        <swiper-item>
+            <scroll-view scroll-y="true" style="height:100%">
+                <view class="listItem" wx:for="list1[2]" wx:for-item="9">
+                        <view class="listInfor">
+                            <image src="{{list1[2].src}}" class="listPic" />
+                            <view class="listCont">
+                                <view class="listTit">{{list1[2].title}}</view>
+                                <view class="listTime">{{list1[2].time}}</view>
+                            </view>
+                        </view>
+                        <view class="listData">
+                            <view class="listDataOut">
+                                前值：<text>{{list1[2].prev}}</text>
+                            </view>
+                            <view class="listDataOut">
+                                预测：<text>{{list1[2].expect}}</text>
+                            </view>
+                            <view class="listDataOut listDataOut2">
+                                实际：<text>{{list1[2].sj}}</text>
+                            </view>
+                        </view>
+                    </view>
+            </scroll-view>
+        </swiper-item>
+        <swiper-item>
+            <scroll-view scroll-y="true" style="height:100%">
+                <view class="listItem" wx:for="list1[3]" wx:for-item="5">
+                        <view class="listInfor">
+                            <image src="{{list1[3].src}}" class="listPic" />
+                            <view class="listCont">
+                                <view class="listTit">{{list1[3].title}}</view>
+                                <view class="listTime">{{list1[3].time}}</view>
+                            </view>
+                        </view>
+                        <view class="listData">
+                            <view class="listDataOut">
+                                前值：<text>{{list1[3].prev}}</text>
+                            </view>
+                            <view class="listDataOut">
+                                预测：<text>{{list1[3].expect}}</text>
+                            </view>
+                            <view class="listDataOut listDataOut2">
+                                实际：<text>{{list1[3].sj}}</text>
+                            </view>
+                        </view>
+                    </view>
+            </scroll-view>
+        </swiper-item>
+        <swiper-item>
+            <scroll-view scroll-y="true" style="height:100%">
+                <view class="listItem" wx:for="list1[4]" wx:for-item="3">
+                        <view class="listInfor">
+                            <image src="{{list1[4].src}}" class="listPic" />
+                            <view class="listCont">
+                                <view class="listTit">{{list1[4].title}}</view>
+                                <view class="listTime">{{list1[4].time}}</view>
+                            </view>
+                        </view>
+                        <view class="listData">
+                            <view class="listDataOut">
+                                前值：<text>{{list1[4].prev}}</text>
+                            </view>
+                            <view class="listDataOut">
+                                预测：<text>{{list1[4].expect}}</text>
+                            </view>
+                            <view class="listDataOut listDataOut2">
+                                实际：<text>{{list1[4].sj}}</text>
+                            </view>
+                        </view>
+                    </view>
+            </scroll-view>
+        </swiper-item>
+        <swiper-item>
+            <scroll-view scroll-y="true" style="height:100%">
+                <view class="listItem" wx:for="list1[5]" wx:for-item="6">
+                        <view class="listInfor">
+                            <image src="{{list1[5].src}}" class="listPic" />
+                            <view class="listCont">
+                                <view class="listTit">{{list1[5].title}}</view>
+                                <view class="listTime">{{list1[5].time}}</view>
+                            </view>
+                        </view>
+                        <view class="listData">
+                            <view class="listDataOut">
+                                前值：<text>{{list1[5].prev}}</text>
+                            </view>
+                            <view class="listDataOut">
+                                预测：<text>{{list1[5].expect}}</text>
+                            </view>
+                            <view class="listDataOut listDataOut2">
+                                实际：<text>{{list1[5].sj}}</text>
+                            </view>
+                        </view>
+                    </view>
+            </scroll-view>
+        </swiper-item>
+        <swiper-item>
+            <view class="listItem" style="font-size:34rpx;color:#222;text-align:center;">
+                    暂无数据
+            </view>
+        </swiper-item>
+    </block>
+</swiper>

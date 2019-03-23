@@ -1,0 +1,74 @@
+<navigator url="teacherBrief/teacherBrief" class="list1">
+    <image src="../../images/home-pic.png" mode="aspectFit"/>
+    <view class="fr listRig">
+        <view class="listTit"><text>沈杨</text></view>
+        <text class="listwork">贵金属 策略分析师</text>
+        <view class="listCon">具有证券投资咨询执业资格，毕业于北京理工大学，企业管理硕士。</view>
+    </view>
+</navigator>
+<!--bindscroll 滚动时触发，event.detail总携带{scrollLeft,scrollTop,scrollHeight,scrollWidth,deltaX,deltaY}-->
+<!--bindscrolltolower 滚动到底部/右边，会触发scrolltolower事件-->
+<!--bindscrolltoupper 滚动到顶部/左边，会触发scrolltoupper事件-->
+<scroll-view scroll-y="true" style="height:{{windowHeight-47}}px;" bindscrolltolower="lower" bindscrolltoupper="upper"
+catchtouchmove="move" catchtouchstart="start" catchtouchend="end" >
+    <view class="viewList">
+        <text class="viewTit">昨天</text>
+        <view class="viewRig">
+            <view class="viewTime">09:07</view>
+            <view class="viewCont">
+                周四美国感恩节假日，美国市场休市，欧洲市场虽然开市，但全球市场整体交投十分清淡，各主要金融品种窄幅波动，
+                基本持稳。美元指数依然维持强劲势头高位盘整，金银窄幅震荡偏弱。
+            </view>
+        </view>
+    </view>
+    <view class="viewList">
+        <text class="viewTit">21<text class="viewDate">11月</text></text>
+        <view class="viewRig">
+            <view class="viewTime">09:07</view>
+            <view class="viewCont">
+                周四美国感恩节假日，美国市场休市，欧洲市场虽然开市，但全球市场整体交投十分清淡，各主要金融品种窄幅波动，
+                基本持稳。美元指数依然维持强劲势头高位盘整，金银窄幅震荡偏弱。
+            </view>
+        </view>
+    </view>
+    <view class="viewList">
+        <text class="viewTit">18<text class="viewDate">11月</text></text>
+        <view class="viewRig">
+            <view class="viewTime">09:07</view>
+            <view  class="viewCont">
+                周四美国感恩节假日，美国市场休市，欧洲市场虽然开市，但全球市场整体交投十分清淡，各主要金融品种窄幅波动，
+                基本持稳。美元指数依然维持强劲势头高位盘整，金银窄幅震荡偏弱。
+            </view>
+        </view>
+    </view>
+    <view class="viewList">
+        <text class="viewTit">18<text class="viewDate">11月</text></text>
+        <view class="viewRig">
+            <view class="viewTime">09:07</view>
+            <view  class="viewCont">
+                周四美国感恩节假日，美国市场休市，欧洲市场虽然开市，但全球市场整体交投十分清淡，各主要金融品种窄幅波动，
+                基本持稳。美元指数依然维持强劲势头高位盘整，金银窄幅震荡偏弱。
+            </view>
+        </view>
+    </view>
+    <view class="viewList">
+        <text class="viewTit">18<text class="viewDate">11月</text></text>
+        <view class="viewRig">
+            <view class="viewTime">09:07</view>
+            <view  class="viewCont">
+                周四美国感恩节假日，美国市场休市，欧洲市场虽然开市，但全球市场整体交投十分清淡，各主要金融品种窄幅波动，
+                基本持稳。美元指数依然维持强劲势头高位盘整，金银窄幅震荡偏弱。
+            </view>
+        </view>
+    </view>
+    <view class="viewList">
+        <text class="viewTit">18<text class="viewDate">11月</text></text>
+        <view class="viewRig">
+            <view class="viewTime">09:07</view>
+            <view  class="viewCont">
+                周四美国感恩节假日，美国市场休市，欧洲市场虽然开市，但全球市场整体交投十分清淡，各主要金融品种窄幅波动，
+                基本持稳。美元指数依然维持强劲势头高位盘整，金银窄幅震荡偏弱。
+            </view>
+        </view>
+    </view>
+</scroll-view>

@@ -1,0 +1,271 @@
+page{
+    background:#f5f5f5;
+    font-family: "微软雅黑";
+}
+.gray{
+    background:#eee;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+page .wx-swiper-dots.wx-swiper-dots-horizontal{
+      margin-bottom:-20rpx;
+}
+page .wx-swiper-dot{
+     display: inline-flex;
+     vertical-align: sub;
+     overflow:hidden;
+} 
+page .wx-swiper-dot::before{
+    width:32rpx;
+    height:2rpx;
+    border:1px solid #f34744;
+} 
+page .wx-swiper-dot-active::before{
+    width:32rpx;
+    height:2rpx;
+    border:1px solid #f34744;
+    background:#f34744;
+}
+.market{
+    height:174rpx;
+    border-top:1px solid #e0e0e0;
+    border-bottom:1px solid #e0e0e0;
+    width:100%;
+    background:#fff;
+    margin-bottom:22rpx;
+    overflow:hidden;
+}
+.marketClass{
+    width:249rpx;
+    height:174rpx;
+    float:left;
+    border-right:1px solid #e0e0e0;
+    overflow:hidden;
+}
+.marketClass2 .linebo{
+    width:100%;
+    height:50rpx;
+}
+.marketClass2 image{
+    margin:0 auto;
+    display: block;
+}
+.noBorder{
+    border-right:none;
+}
+.add{
+    font-size:40rpx;
+    text-align:center;
+}
+.marketClass view{
+    text-align:center;
+}
+.maName{
+    font-size:30rpx;
+    margin-top:30rpx;
+}
+.maData{
+    font-size:34rpx;
+    color:#f34744;
+}
+.maData2{
+    font-size:26rpx;
+    color:#f34744;
+}
+.maData2 text{
+    margin-right:8rpx;
+    margin:0;
+    padding:0;
+}
+.item{
+    height:174rpx;
+    width:100%;
+    border-top:1px solid #e0e0e0;
+    border-bottom:1px solid #e0e0e0;
+    background:#fff;
+    display:flex;
+}
+.item navigator{
+    height:100%;
+    border-right:1px solid #e0e0e0;
+    flex:1;
+}
+.item .navnoBorder{
+    border-right:none;
+}
+.item navigator .itemTit{
+    color:#f34744;
+    font-size:30rpx;
+    text-align:center;
+    margin-top:25rpx;
+    line-height:76rpx;
+    display:-webkit-box;
+    -webkit-box-align:center;
+}
+.item navigator .itemTit .itemPic{
+    width:56rpx;
+    height:56rpx;
+    display: block;
+    margin:0 25rpx 0 88rpx;
+}
+.item navigator .itemCont{
+    font-size:26rpx;
+    text-align:center;
+    color:#999;
+    padding-top:2rpx;
+}
+.cjrl{
+    height:66rpx;
+    border-bottom:1px solid #e0e0e0;
+    background:#fff;
+    margin-bottom:22rpx;
+}
+.cjrl .cjrlTit{
+    font-size:30rpx;
+    line-height:66rpx;
+    padding-left:5%;   
+    display:-webkit-box;
+    -webkit-box-align:center;
+}
+.cjrl .cjrlPic{
+    width:30rpx;
+    height:30rpx;
+    margin-right:10rpx;
+}
+.cjrl .moveFont{
+    width:70%;
+    color:#666;
+    font-size:28rpx;
+    line-height:66rpx;
+    height:66rpx;
+    overflow:hidden;
+}
+.cjrl .date{
+    margin-right:30rpx;
+}
+.anOut{
+    width:100%;
+    overflow:hidden;
+    height:1360rpx;
+}
+.anOut .tabCon{
+    float:left;
+}
+.nav{
+    width:100%;
+    height:86rpx;
+    display:flex;
+    background:#fff;
+    border-top:1px solid #e0e0e0;
+    border-bottom:1px solid #e0e0e0;
+    overflow:hidden;
+    
+}
+.nav view{
+    flex:1;
+    border-right:1px solid #e0e0e0;
+    text-align:center;
+    font-size:30rpx;
+    padding-top:20rpx;
+}
+.nav view.back{
+    background:#eee;
+}
+.nav .default{
+    color:#999;
+    border:none;
+    letter-spacing: 2rpx;
+}
+.nav .defaulton{
+   color:#ff0000;
+}
+.default1{
+    border:none;
+    width:0;
+    height:0;
+}
+.default1on{
+    width:30rpx;
+    height:2rpx;
+    background:#ff0000;
+    display: block;
+    margin:8rpx auto 0;
+}
+.show{
+    display:block;
+    background:#fff;
+ }
+.hidden{
+    display:none;
+    background:#fff;
+}
+.navlist{
+    background:#fff;
+    border-bottom:1px solid #e0e0e0;
+    height:100%;
+}
+.list1{
+    height:270rpx;
+    border-bottom:1px solid #e0e0e0;
+    background:#fff;
+    clear:both;
+    width:100%;
+}
+.list1 .listRig{
+    width:420rpx;
+}
+.list1 image{
+    width:223rpx;
+    height:168rpx;
+    float:left;
+    margin:55rpx 30rpx 0 30rpx;
+}
+.list1 .listTit{
+    font-size:30rpx;
+    color:#222;
+    margin-top:60rpx;
+}
+.list1 .listCon{
+    color:#666;
+    padding-top:4rpx;
+    font-size:22rpx;
+    line-height:34rpx;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    padding-bottom:5rpx;
+}
+.list1 .listDea .listbtn1{
+    font-size:20rpx;
+    color:#fb7f24;
+    border:1px solid #fb7f24;
+    border-radius:15%;
+    padding:0 8rpx;
+}
+.list1 .listDea .listbtn2{
+    font-size:20rpx;
+    color:#f34744;
+    border:1px solid #f34744;
+    border-radius:15%;
+    padding:0 8rpx;
+    margin-left:10rpx;
+}
+.list1 .listDea .dateTime{
+    font-size:24rpx;
+    color:#666;
+    float:right;
+}
+.list1 .listDea .dateTime2{
+    float:left;
+}
+.list1 .listwork{
+    font-size:24rpx;
+    color:#666;
+    margin-left:10rpx;
+}

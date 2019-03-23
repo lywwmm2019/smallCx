@@ -1,0 +1,12 @@
+<view class="briefTop">
+    <image src="../../../images/home-pic.png" class="touxiang" />
+    <view class="teaName">沈杨</view>
+    <view class="briefpos">贵金属策略分析师</view>
+    <view class="triangle_border_up">
+        <text></text>
+    </view>
+</view>
+<view class="briefList"><text class="briefBor"></text><text class="briefTit">从业年限：</text><text class="briefTit2">8年</text></view>
+<view class="briefList"><text class="briefBor"></text><text class="briefTit">擅长领域：</text><text class="briefTit2">基本面分析 技术面分析</text></view>
+<view class="briefList"><text class="briefBor"></text><text class="briefTit">擅长领域：</text><text class="briefTit2">资深贵金属投资策律师 操作风格：以基本面分析为主，技术面分析为辅，擅于长线布局，顺势而为。</text></view>
+<view class="briefList"><text class="briefBor"></text><text class="briefTit">老师简介：</text><text class="briefTit2">具有证券投资具有证券投资具有证券投资具有证券投资具有证券投资具有证券投资具有证券投资具有证券投资具有证券投资具有证券投资具有证券投资具有证券投资具有证券投资具有证券投资</text></view>

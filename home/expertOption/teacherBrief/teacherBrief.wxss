@@ -1,0 +1,74 @@
+page{
+    background:#fff;
+    font-family: "微软雅黑";
+}
+.briefTop{
+    height:330rpx;
+    background:#333;
+    position:relative;
+    padding-top:100rpx;
+}
+.briefTop .touxiang{
+    width:170rpx;
+    height:170rpx;
+    background:#fff;
+    border-radius: 50%;
+    margin:0 auto 40rpx;
+    display: block;
+}
+.briefTop .teaName{
+    font-size:30rpx;
+    color:#fff;
+    text-align: center;
+    margin-bottom:15rpx;
+}
+.briefTop .briefpos{
+    font-size:26rpx;
+    color:#fff;
+    text-align: center;
+    letter-spacing: 3rpx;
+    margin-bottom:22rpx;
+}
+.briefTop .triangle_border_up{
+    width:0;
+    height:0;
+    border-width:0 17rpx 17rpx;
+    border-style:solid;
+    border-color:transparent transparent #fff;
+    margin:0 auto;
+    position:relative;
+}
+.briefTop .triangle_border_up span{
+    display:block;
+    width:0;
+    height:0;
+    border-width:0 17rpx 17rpx;
+    border-style:solid;
+    border-color:transparent transparent #fc0;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+.briefList{
+    font-size:32rpx;
+    border-bottom:1px solid #e0e0e0;
+    display: flex;
+    padding:15rpx 15rpx;
+    
+}
+.briefList .briefBor{
+    height:26rpx;
+    width:5rpx;
+    background:#999;
+    margin-right:7rpx;
+    margin-top:7rpx;
+}
+.briefList .briefTit{
+    flex:2.5;
+}
+.briefList .briefTit2{
+    flex:7.8;
+    font-size:27rpx;
+    line-height: 48rpx;
+    color:#666;
+}

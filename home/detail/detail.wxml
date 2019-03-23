@@ -1,0 +1,33 @@
+<scroll-view scroll-y="true" style="height:{{windowHeight-50}}px;">
+    <image src="../../images/home-detail-chart.jpg" style="width:750rpx;height:916rpx;"></image>
+    <navigator url="../information/information" redirect="" class="jrclPart">
+        <view class="jrcl"><image src="../../images/home-detail-cjrl.png" class="jrclLogo"/>今日策略</view>
+        <view class="jrclList">
+            <image src="../../images/home-detail-jrcl.png" class="jrclPic" />
+            <view class="jrclFont">
+                <view class="jrclTit">今日的策略重点重点</view>
+                <view class="jrclCon">
+                    泰证券在券商分类评级中连续三次被中国证监会评定为A类券商。
+                </view>
+                <view class="time">11:10</view>
+            </view>
+        </view>
+    </navigator>
+</scroll-view>
+<view class="footer" >
+    <view class="part" bindtap="xiadan">
+        <text>↓</text>下单
+    </view>
+    <view class="part{{signFlag?'on':''}} nobor " bindtap="change" >
+        <text>{{sign}}</text>自选
+    </view>
+</view>
+<view class="pop" animation="{{animation}}">
+    {{text}}
+</view>
+<view id="mask" hidden="{{maskSign}}"></view>
+<view class="maskWin" hidden="{{maskSign}}">
+    <navigator url="../../open-account/open-account" class="nav1" bindtap="close">粤贵宝实盘(未开户)</navigator>
+    <navigator url="../../open-account/open-account" class="nav2" bindtap="close">粤贵宝模拟(未开户)</navigator>
+    <view class="close" bindtap="close">关闭</view>
+</view>

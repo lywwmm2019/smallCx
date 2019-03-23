@@ -1,0 +1,96 @@
+page{
+    background:#fff;
+    font-family: "微软雅黑";
+}
+.year{
+    height:48rpx;
+    text-align: center;
+    padding-top:20rpx;
+    font-size:25rpx;
+    color:#222;
+}
+.year text{
+    padding-bottom:10rpx;
+}
+.year .bor{
+    width:40rpx;
+    height:1rpx;
+    background:#ec4049;
+    margin:0 auto;
+}
+.move{
+    height:100rpx;
+    border:1px solid #e4e4e4;
+    background:#f5f5f5;  
+    padding-top:18rpx;
+}
+.move .moveOut{
+    display: flex;
+}
+.move .date{
+    flex:1;
+    text-align:center;
+    color:#9f9f9f;
+    font-size:28rpx;  
+}
+.move .date view{
+    padding-bottom:7rpx;
+}
+.move .date .dateNumon{
+    color:red;
+}
+.move .date .day{
+    font-size:32rpx;
+}
+.move .date .dayon{
+    font-size:32rpx;
+    color:red;
+}
+.listItem{
+    padding-top:50rpx;
+}
+.listItem .listInfor{
+    padding:0 28rpx;
+}
+.listItem .listInfor .listPic{
+    width:102rpx;
+    height:76rpx;
+    float:left;
+    margin-right:16rpx;
+    background:red;
+}
+.listItem .listInfor .listCont{
+    width:550rpx;
+    float:left;
+}
+.listItem .listInfor .listCont .listTit{
+    font-size:26rpx;
+    color:#222;
+    line-height:50rpx;
+}
+.listItem .listInfor .listCont .listTime{
+    font-size:24rpx;
+    color:#999;
+    text-align:right;
+}
+.listItem .listData{
+    clear:both;
+    padding:44rpx 28rpx 0;
+    padding-bottom:50rpx;
+    display:flex;
+    border-bottom:1px solid #e0e0e0;
+}
+.listItem .listData .listDataOut{
+    flex:1;
+    text-align:center;
+    font-size:26rpx;
+    color:#666;
+    border-left:1px solid #e0e0e0;
+}
+.listItem .listData .listDataOut2{
+    border-right:1px solid #e0e0e0;
+}
+.listItem .listData .listDataOut text{
+    font-size:24rpx;
+    color:#999;
+}
