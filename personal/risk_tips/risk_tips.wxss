@@ -1,0 +1,9 @@
+.risk_tips{
+    width:92%;
+    padding:4%;
+}
+.risk_tips text{
+    font-family:'Microsoft Yahei';
+    font-size:30rpx;
+    color:#666;
+}

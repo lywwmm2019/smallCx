@@ -1,0 +1,10 @@
+<view class="per_login">
+   <view class="per_form">
+        <text class="tips">验证码</text>
+        <input  maxlength="11" placeholder="" type="tel" class="code"/>
+        <text class="tips">密码（长度6-16位，支持数字、字母、字符）</text>
+        <input  maxlength="11" placeholder="" type="passpassward" class="pas"/>      
+        <button class="over">完成</button>
+        <button class="wait_tips">等待46秒</button>
+   </view>
+</view>

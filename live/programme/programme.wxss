@@ -1,0 +1,17 @@
+.page{font-family: "微软雅黑";background:#f5f5f5;}
+video {width:100%;height:225px;display:inline-block;line-height:0;overflow:hidden;}
+.programme_whole{position:absolute;left:0rpx;top:225px;width:100%;}
+.programme{border-bottom:#edecea 1px solid;height:70rpx; line-height: 70rpx; background:#f5f5f5;margin:0rpx;width:100%;}
+.programmep{flex:1; padding:0rpx 0 10rpx 60rpx; color:#999; font-size:14px; background:url("../../images/live_candle.png")no-repeat left center;background-size:4% 50%;margin:0 0 0 40rpx;}
+.programmeclose{width:32rpx;height:32rpx;margin:0 40rpx 0 0;}
+.programmecontent{background:#fff;display:flex;}
+
+
+.recommend-content-whole{width:100%;flex-direction:column;}
+.recommend-content{display:flex;padding:30rpx 15rpx;background:#fff;border-bottom:#edecea 1px solid;}
+.recommend-content-img{width:336rpx;height:188rpx;}
+.recommend-content-word{flex:1;margin:0 0 0 20rpx;}
+.recommend-content-p1{font-family:"Microsoft YaHei"; font-size:13px;color:#222;display:block;}
+.recommend-content-p2{font-family:"Microsoft YaHei"; font-size:12px;color:#666;display:block;margin-top:15rpx;}
+.recommend-content-p3{font-family:"Microsoft YaHei"; font-size:13px;color:#5899f3;display:block;margin-top:15rpx;}
+.recommend-content-p4{font-family:"Microsoft YaHei"; font-size:13px;color:#ed3e43;display:block;margin-top:15rpx;}

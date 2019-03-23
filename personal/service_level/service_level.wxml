@@ -1,0 +1,164 @@
+<view class="yhjb">
+ <text class="title">
+   用户级别及服务：
+ </text>
+ <text class="content">
+   <text class="square">●</text> 用户须知：用户等级以单个交易所历史累计净入金或当前存量资金两者中的最高值为判定标准。如果因净入金或存量资金变化引起所属级别发生变化，新级别将在次日12:00前生效。
+ </text>
+ <text class="content">
+   <text class="font_red">*</text> 用户须知：用户等级以单个交易所历史累计净入金或当前存量资金两者中的最高值为判定标准。如果因净入金或存量资金变化引起所属级别发生变化，新级别将在次日12:00前生效。
+ </text>
+ <view class="customer_level">
+<text class="title">
+   体验客户
+ </text>
+ <text class="content">
+    <text class="sub_title">等级要求：</text> 用户须知：用户等级以单个交易所历史累计净入金或当前存量资金两者中的最高值为判定标准。如果因净入金或存量资金变化引起所属级别发生变化，新级别将在次日12:00前生效。
+ </text>
+ <view class="profes_serve">
+    <text class="sub_title">专业服务：</text> 
+    <view class="square_level">
+       <view class="gold_criticism">
+          <image src="/images/person_jpzwp.png" class="icon"></image><text>金牌早晚、</text>
+       </view>
+       <view class="gold_criticism">
+          <image src="/images/person_zjzb.png" class="icon"></image><text>证金直播、</text>
+       </view>
+      <view class="gold_criticism">
+          <image src="/images/person_cfzk.png" class="icon"></image><text>财富周刊、</text>
+       </view>
+       <view class="gold_criticism">
+          <image src="/images/person_tzyb.png" class="icon"></image><text>投资研报</text>
+       </view>
+    </view>
+ </view>
+ <text class="content">
+    <text class="sub_title">增值服务：</text> 爱杠杆APP
+ </text>
+ </view>
+  <view class="customer_level">
+ <text class="title">
+   <text>三星客户</text>
+ </text>
+ <image src="/images/person_star.png" class="star"></image>
+ <image src="/images/person_star.png" class="star"></image>
+ <image src="/images/person_star.png" class="star"></image>
+ <text class="content">
+    <text class="sub_title">等级要求：</text> (0大于号Y小于号10w)
+ </text>
+  <view class="profes_serve">
+    <text class="sub_title">专业服务：</text> 
+    <view class="square_level">
+       <view class="gold_criticism">
+          <image src="/images/person_dkgzs.png" class="icon"></image><text>大咖工作室、</text>
+       </view>
+       <view class="gold_criticism">
+          <image src="/images/person_jfsc_01.png" class="icon"></image><text>积分商城、</text>
+       </view>
+       <view class="gold_criticism">
+          <image src="/images/person_zjxms.png" class="icon"></image><text>证金小秘书</text>
+       </view>      
+    </view>
+ </view>
+ <text class="content">
+    <text class="sub_title">增值服务：</text> 1对1客户顾问
+ </text>
+ </view>
+  <view class="customer_level">
+ <text class="title">
+   <text>四星客户</text>
+ </text>
+ <image src="/images/person_star.png" class="star"></image>
+ <image src="/images/person_star.png" class="star"></image>
+ <image src="/images/person_star.png" class="star"></image>
+ <image src="/images/person_star.png" class="star"></image>
+ <text class="content">
+    <text class="sub_title">等级要求：</text> （10w小于等于号Y小于号50w）
+ </text>
+ <view class="profes_serve">
+    <text class="sub_title">专业服务：</text> 
+    <view class="square_level">
+       <view class="gold_criticism">
+          <image src="/images/person_dkclzb.png" class="icon"></image><text>大咖策略周报、</text>
+       </view>
+       <view class="gold_criticism">
+          <image src="/images/person_msmj.png" class="icon"></image><text>名师秘籍</text>
+       </view>       
+    </view>
+ </view>
+ <text class="content">
+    <text class="sub_title">增值服务：</text> 生日当月交易积分翻倍
+ </text>
+ </view>
+  <view class="customer_level">
+ <text class="title">
+   <text>五星客户</text>
+ </text>
+ <image src="/images/person_star.png" class="star"></image>
+ <image src="/images/person_star.png" class="star"></image>
+ <image src="/images/person_star.png" class="star"></image>
+ <image src="/images/person_star.png" class="star"></image>
+ <image src="/images/person_star.png" class="star"></image>
+ <text class="content">
+    <text class="sub_title">等级要求：</text> （50w小于等于Y小于100w）
+ </text>
+ <view class="profes_serve">
+    <text class="sub_title">专业服务：</text> 
+    <view class="square_level">
+       <view class="gold_criticism">
+          <image src="/images/person_EMO.png" class="icon"></image><text>EMO量化指数、</text>
+       </view>
+       <view class="gold_criticism">
+          <image src="/images/person_oneTOone.png" class="icon"></image><text>专家1对1</text>
+       </view>       
+    </view>
+ </view>
+ <text class="content">
+    <text class="sub_title">增值服务：</text> 娱乐票务
+ </text>
+ </view>
+<view class="customer_level">
+ <text class="title">
+   <text>钻石客户</text>
+ </text>
+ <image src="/images/person_diamond.png" class="star"></image>
+ <text class="content">
+    <text class="sub_title">等级要求：</text> （100w小于等于Y小于300w）
+ </text>
+ <view class="profes_serve">
+    <text class="sub_title">专业服务：</text> 
+    <view class="square_level">
+       <view class="gold_criticism">
+          <image src="/images/person_VIP.png" class="icon"></image><text>VIP大咖工作室、</text>
+       </view>
+       <view class="gold_criticism">
+          <image src="/images/person_zhzd.png" class="icon"></image><text>账户诊断</text>
+       </view>       
+    </view>
+ </view>
+ <text class="content">
+    <text class="sub_title">增值服务：</text> 积分商城VIP专享、生日礼物
+ </text>
+ </view>
+<view class="customer_level">
+ <text class="title">
+   <text>至尊客户</text>
+ </text>
+ <image src="/images/person_king.png" class="star"></image>
+ <text class="content">
+    <text class="sub_title">等级要求：</text> （300w小于等于Y）
+ </text>
+ <view class="profes_serve">
+    <text class="sub_title">专业服务：</text> 
+    <view class="square_level1">
+       <view class="gold_criticism1">
+          <image src="/images/person_tzclbgh.png" class="icon"></image><text>财经大佬网络（或现场）策略报告会</text>
+       </view>   
+    </view>
+ </view>
+ <text class="content">
+    <text class="sub_title">增值服务：</text> 全球高端定制旅游
+ </text>
+ </view>
+ <text class="tips">若想申请更多权限，请在PC端申请！</text>
+</view>

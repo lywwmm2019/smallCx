@@ -1,0 +1,5 @@
+.container{width:100%;height:100%; background:#f5f5f5; font-family:"微软雅黑";}
+.teacherpic{width:100%;height:500rpx; background:url("../../images/live_teacherintroduct.jpg") no-repeat; background-size: 100% 100%;}
+.teacherdetail{border-bottom:#e0e0e0 1px solid;padding:50rpx 50rpx 40rpx 50rpx; background:#fff;display:flex;}
+.teachersubtitle{height:30rpx; line-height: 30rpx; border-left:#838486 2px solid;display:flex; font-size: 14px; color:#838486; font-weight:bold;padding:0 0 0 10rpx;}
+.teacherdetailcontent{color:#848484;font-size:14px;flex:1;margin:0 0 0 30rpx;line-height: 40rpx;}

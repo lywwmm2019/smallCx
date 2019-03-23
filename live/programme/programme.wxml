@@ -1,0 +1,59 @@
+<view class="page">
+    <view class="page__bd">
+        <view class="section section_gap">
+            <view class="body-view" style="text-align: center;">
+                <video src="{{src}}"></video>
+            </view>
+        </view>
+    </view>
+    <view class="programme_whole">
+    <view class="programme">
+        <view class="programmep">节目单</view>
+        <view><image src="../../images/live_close.png" class="programmeclose" mode="aspectFill"/></view>
+    </view>
+
+    <view class="programmecontent">
+         <scroll-view  scroll-y="true" style="height:720rpx;">
+            <view class="recommend-content-whole">
+                <view class="recommend-content">
+                    <image src="../../images/live_studiopic.jpg" class="recommend-content-img"  mode="aspectFill"/>
+                    <view class="recommend-content-word">
+                      <text class="recommend-content-p1">《大咖工作室》20160619期</text>
+                      <text class="recommend-content-p2">赵宇、小娟</text>
+                      <text class="recommend-content-p2">9:00-10:00直播已经结束</text>
+                      <text class="recommend-content-p3">回看</text>
+                    </view>
+                </view>
+                <view class="recommend-content">
+                    <image src="../../images/live_studiopic.jpg" class="recommend-content-img"  mode="aspectFill"/>
+                    <view class="recommend-content-word">
+                      <text class="recommend-content-p1">《大咖工作室》20160619期</text>
+                      <text class="recommend-content-p2">赵宇、小娟</text>
+                      <text class="recommend-content-p2">9:00-10:00直播已经结束</text>
+                      <text class="recommend-content-p4">正在直播</text>
+                    </view>
+                </view>
+                <view class="recommend-content">
+                    <image src="../../images/live_studiopic.jpg" class="recommend-content-img"  mode="aspectFill"/>
+                    <view class="recommend-content-word">
+                      <text class="recommend-content-p1">《大咖工作室》20160619期</text>
+                      <text class="recommend-content-p2">赵宇、小娟</text>
+                      <text class="recommend-content-p2">9:00-10:00直播已经结束</text>
+                      <text class="recommend-content-p4">正在直播</text>
+                    </view>
+                </view>
+                <view class="recommend-content">
+                    <image src="../../images/live_studiopic.jpg" class="recommend-content-img"  mode="aspectFill"/>
+                    <view class="recommend-content-word">
+                      <text class="recommend-content-p1">《大咖工作室》20160619期</text>
+                      <text class="recommend-content-p2">赵宇、小娟</text>
+                      <text class="recommend-content-p2">9:00-10:00直播已经结束</text>
+                      <text class="recommend-content-p3">回看</text>
+                    </view>
+                </view>
+            </view>
+        </scroll-view> 
+     </view>
+   </view>
+
+</view>

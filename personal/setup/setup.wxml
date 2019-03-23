@@ -1,0 +1,65 @@
+ <!--刷新频率-->
+ <picker class="pick" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+  <view class="per_nr  traigle">
+    <view class="per_nr_zuo">
+      <image src="/images/person_sxpl.png"  class="per_tb"></image>
+      <text>刷新频率</text>
+    </view>
+    <view class="per_nr_you">
+        <text class="wenzi">{{array[index]}}</text>
+        <image src="/images/per_throw.png" class="per_jt"></image>
+    </view>
+    <view class="clear"></view>
+  </view>
+   </picker>
+   <!--清除缓存-->
+  <view class="per_nr">
+    <view class="per_nr_zuo" bindtap = "clearCache">
+      <image src="/images/person_qchc.png"  class="per_tb"></image>
+      <text>清除缓存</text>
+    </view>
+    <view class="per_nr_you">
+       <text class="wenzi">2.11M</text>
+    </view>
+    <view class="clear"></view>
+  </view>
+   <!--消息推送-->
+  <view class="per_nr">
+    <view class="per_nr_zuo" >
+      <image src="/images/person_xxts.png"  class="per_tb"></image>
+      <text>消息推送</text>
+    </view>
+    <view class="per_nr_you">
+       <switch name="switch" class="news_propelling" checked/>
+    </view>
+    <view class="clear"></view>
+  </view>
+   <!--服务协议-->
+  <navigator url="../service_agreement/service_agreement?title=navigate" hover-class="navigator-hover">
+  <view class="per_nr">
+    <view class="per_nr_zuo">
+      <image src="/images/person_fwxy.png"  class="per_tb"></image>
+      <text>服务协议</text>
+    </view>
+    <view class="per_nr_you">
+        <image src="/images/per_throw.png" class="per_jt"></image>
+    </view>
+    <view class="clear"></view>
+  </view>
+  </navigator>
+   <!--关于我们-->
+  <navigator url="../about_us/about_us?title=navigate" hover-class="navigator-hover">
+  <view class="per_nr about_us">
+    <view class="per_nr_zuo">
+      <image src="/images/person_gywm.png"  class="per_tb"></image>
+      <text>关于我们</text>
+    </view>
+    <view class="per_nr_you">
+        <image src="/images/per_throw.png" class="per_jt"></image>
+    </view>
+    <view class="clear"></view>
+  </view>
+  </navigator>
+  
+
+

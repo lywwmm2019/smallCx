@@ -1,0 +1,86 @@
+.change_pic{
+    width:94%;
+    height:130rpx;
+    border-bottom:1px solid #ececec;
+    padding: 25rpx 3%;
+
+}
+.label{
+    position:relative;
+    float:left;
+    display: block;
+    line-height: 130rpx;
+    font-family: 'Microsoft Yahei';
+    font-size:31rpx;
+}
+
+.pic{
+    width:130rpx;
+    height:130rpx;
+    position:relative;
+    float: right;
+    display: block;
+    border-radius:50%;
+}
+.change_name{
+    width:94%;
+    height:60rpx;
+    border-bottom:1px solid #ececec;
+    padding: 30rpx 3%;
+}
+.label1{
+    position:relative;
+    float:left;
+    display: block;
+    line-height: 60rpx;
+    font-family: 'Microsoft Yahei';
+    font-size:31rpx;
+    width:40%;
+}
+changeName_right{
+    position:relative;
+    float:right;
+    height:90rpx;  
+    width:60%;
+}
+.name{
+    line-height: 60rpx;
+    font-family: 'Microsoft Yahei';
+    font-size:28rpx;
+    display: block;
+    float: left;
+    color:#999999;
+    width:50%;
+    text-align: right;
+}
+.throw{
+    width:40rpx;
+    height:60rpx;
+    position:relative;
+    float: right;
+    display: block;
+}
+
+.change_password{
+     width:94%;
+    height:60rpx;
+    border-bottom:1px solid #ececec;
+    padding: 30rpx 3%;
+}
+.quit{
+    width:75%;
+    height:85rpx;
+    border:1px solid #d3d3d3;
+    position:relative;
+    margin: 0 auto;
+    margin-top:70rpx;
+    border-radius: 5rpx;
+    line-height: 85rpx;
+}
+.quit text{
+    font-family: 'Microsoft Yahei';
+    font-size:31rpx;
+    display: block;
+    text-align:center;
+    color: #989898;
+}

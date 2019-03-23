@@ -1,0 +1,119 @@
+<scroll-view class="hqClassify" scroll-x="true">
+    <view><text class="swiper-tab-left{{currentTab==0 ? 'on':''}}" data-current="0" bindtap="swichNav">自选</text></view>
+    <view><text class="swiper-tab-left{{currentTab==1 ? 'on':''}}" data-current="1" bindtap="swichNav">广贵中心</text></view>
+    <view><text class="swiper-tab-left{{currentTab==2 ? 'on':''}}" data-current="2" bindtap="swichNav">湘商商品</text></view>
+    <view><text class="swiper-tab-left{{currentTab==3 ? 'on':''}}" data-current="3" bindtap="swichNav">津贵所</text></view>
+</scroll-view>
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{300}}px;" bindchange="bingChange">
+    <block>
+        <swiper-item>
+            <view class="classifyName">
+                <view>品种名称</view>
+                <view>最新价</view>
+                <view>涨跌额/涨跌幅</view>
+            </view>
+            <scroll-view scroll-y="true" class="classifyDetail">
+                <navigator url="add/add" class="addBtn" hover-class="addHover">+添加自选</navigator>
+            </scroll-view>
+        </swiper-item>
+        <swiper-item>
+            <view class="classifyName">
+                <view>品种名称</view>
+                <view>最新价</view>
+                <view>涨跌额/涨跌幅</view>
+            </view>
+            <scroll-view scroll-y="true" class="classifyDetail">
+                <view class="classifyItem">
+                    <view class="nameSty">
+                        <text>粤贵银</text>
+                        <text class="engSty">GDAG</text>
+                    </view>
+                    <view class="numSty">3730</view>
+                    <view class="numSty">+65/+1.77%</view>
+                </view>
+                <view class="classifyItem">
+                    <view class="nameSty">
+                        <text>粤贵银</text>
+                        <text class="engSty">GDAG</text>
+                    </view>
+                    <view class="numSty">3730</view>
+                    <view class="numSty">+65/+1.77%</view>
+                </view>
+                <view class="classifyItem">
+                    <view class="nameSty">
+                        <text>粤贵银</text>
+                        <text class="engSty">GDAG</text>
+                    </view>
+                    <view class="numSty">3730</view>
+                    <view class="numSty">+65/+1.77%</view>
+                </view>
+            </scroll-view>
+        </swiper-item>
+        <swiper-item>
+            <view class="classifyName">
+                <view>品种名称</view>
+                <view>最新价</view>
+                <view>涨跌额/涨跌幅</view>
+            </view>
+            <scroll-view scroll-y="true" class="classifyDetail">
+                <view class="classifyItem">
+                    <view class="nameSty">
+                        <text>原油指数100桶</text>
+                        <text class="engSty">XS0100B</text>
+                    </view>
+                    <view class="numSty">3730</view>
+                    <view class="numSty">+65/+1.77%</view>
+                </view>
+                <view class="classifyItem">
+                    <view class="nameSty">
+                        <text>原油指数100桶</text>
+                        <text class="engSty">XS0100B</text>
+                    </view>
+                    <view class="numSty">3730</view>
+                    <view class="numSty">+65/+1.77%</view>
+                </view>
+                <view class="classifyItem">
+                    <view class="nameSty">
+                        <text>原油指数100桶</text>
+                        <text class="engSty">XS0100B</text>
+                    </view>
+                    <view class="numSty">3730</view>
+                    <view class="numSty">+65/+1.77%</view>
+                </view>
+            </scroll-view>
+        </swiper-item>
+        <swiper-item>
+            <view class="classifyName">
+                <view>品种名称</view>
+                <view>最新价</view>
+                <view>涨跌额/涨跌幅</view>
+            </view>
+            <scroll-view scroll-y="true" class="classifyDetail">
+                <view class="classifyItem">
+                    <view class="nameSty">
+                        <text>银15kg</text>
+                        <text class="engSty">Ag</text>
+                    </view>
+                    <view class="numSty">3730</view>
+                    <view class="numSty">+65/+1.77%</view>
+                </view>
+                <view class="classifyItem">
+                    <view class="nameSty">
+                        <text>银15kg</text>
+                        <text class="engSty">Ag</text>
+                    </view>
+                    <view class="numSty">3730</view>
+                    <view class="numSty">+65/+1.77%</view>
+                </view>
+                <view class="classifyItem">
+                    <view class="nameSty">
+                        <text>银15kg</text>
+                        <text class="engSty">Ag</text>
+                    </view>
+                    <view class="numSty">3730</view>
+                    <view class="numSty">+65/+1.77%</view>
+                </view>
+            </scroll-view>
+        </swiper-item>
+    </block>
+</swiper>

@@ -1,0 +1,20 @@
+<view class="container">
+    <view class="teacherpic"><image src="../../images/live_teacherintroduct.jpg" style="width:100%;height:100%" mode="aspectFill"/></view>
+     
+    <view class="teacherdetail">
+        <view class="teachersubtitle">从业年限</view>
+        <view class="teacherdetailcontent">8年</view>
+    </view>
+    <view class="teacherdetail">
+        <view class="teachersubtitle">擅长领域</view>
+        <view class="teacherdetailcontent">基本面分析、技术面分析为辅的模式。</view>
+    </view>
+    <view class="teacherdetail">
+        <view class="teachersubtitle">经典格言</view>
+        <view class="teacherdetailcontent">少壮不努力，老大徒伤悲！</view>
+    </view>
+    <view class="teacherdetail">
+        <view class="teachersubtitle">老师简介</view>
+        <view class="teacherdetailcontent">股票、期货两栖10年实战操盘经历，拥有国家注册证券执业资格。每年短线交易1000次有余，绝对的实战派，曾受邀担任金融界、中国网等特约嘉宾。自创新股短线暴利系统、贵金属分时振幅测量理论、分时3浪拉升理论、震荡行情多空转换法则等操盘手法。曾任职某大型私募，负责股票和现货白银、原油的操盘和培训。最擅长的交易手法是把握日内分时最低点，买完就涨，被誉为“超短金手”，尤为擅长震荡市场高空低多，双向获利。</view>
+    </view>
+</view>

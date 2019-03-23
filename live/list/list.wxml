@@ -1,0 +1,190 @@
+<view class="container">
+    <view class="top_vedio">      
+        <view class="board">
+          <scroll-view class="scroll-view_H" scroll-x="true">
+            <view class="board-item scroll-view-item_H">
+            <text  class="{{tabSwitch[0]}}" bindtap="swichNav" data-current='0' id="tab0">推荐</text>   
+            </view>
+            <view class="board-item scroll-view-item_H">
+            <text  bindtap="swichNav" data-current='1' id="tab1" class="{{tabSwitch[1]}}">今日聚焦</text>
+            </view> 
+            <view class="board-item scroll-view-item_H">
+            <text  bindtap="swichNav" data-current='2' id="tab2" class="{{tabSwitch[2]}}">战绩回顾</text>
+            </view>
+            <view class="board-item scroll-view-item_H">
+            <text bindtap="swichNav" data-current='3' id="tab3" class="{{tabSwitch[3]}}">热点原创</text>
+            </view>  
+            <view class="board-item scroll-view-item_H">
+            <text bindtap="swichNav" data-current='4' id="tab4" class="{{tabSwitch[4]}}">内部教程</text>
+            </view>
+          </scroll-view> 
+        </view>  
+    </view>
+    <swiper current="{{currentTab}}"  class="swiper-box" duration="300" style="height:1000rpx;width:100%;overflow:hidden;" bindchange="bindSwiper">
+    <!--推荐-->
+     <swiper-item>
+      <view class="recommend">
+        <view class="recommend-content-whole">
+          <navigator url="../programme/programme">
+            <view class="recommend-content">
+              <view class="recommend-content-left">
+                  <image src="../../images/live_studiopic.jpg" class="recommend-content-leftimg"  mode="aspectFill"/>
+                  <text class="recommend-content-leftp1">2016-11-09 推荐</text>
+                  <text class="recommend-content-leftp2">观看次数：250</text>
+               </view>
+               <view class="recommend-content-left" style="margin-left:20rpx;">
+                  <image src="../../images/live_studiopic.jpg" class="recommend-content-leftimg"  mode="aspectFill"/>
+                  <text class="recommend-content-leftp1">2016-11-29 推荐</text>
+                  <text class="recommend-content-leftp2">观看次数：298</text>
+              </view>  
+            </view>
+            <view class="recommend-content">
+              <view class="recommend-content-left">
+                  <image src="../../images/live_studiopic.jpg" class="recommend-content-leftimg"  mode="aspectFill"/>
+                  <text class="recommend-content-leftp1">2016-11-09 推荐</text>
+                  <text class="recommend-content-leftp2">观看次数：250</text>
+               </view>
+               <view class="recommend-content-left" style="margin-left:20rpx;">
+                  <image src="../../images/live_studiopic.jpg" class="recommend-content-leftimg"  mode="aspectFill"/>
+                  <text class="recommend-content-leftp1">2016-11-29 推荐</text>
+                  <text class="recommend-content-leftp2">观看次数：298</text>
+              </view>  
+            </view>
+            </navigator> 
+          </view> 
+        </view>
+      </swiper-item>
+     <!--今日聚焦-->
+     <swiper-item>
+      <view class="focus">
+        <view class="focus-content-whole">
+          <navigator url="../programme/programme">
+            <view class="focus-content">
+              <view class="focus-content-left">
+                  <image src="../../images/live_recommend.jpg" class="focus-content-leftimg"  mode="aspectFill"/>
+                  <text class="focus-content-leftp1">2016-11-09 今日聚焦</text>
+                  <text class="focus-content-leftp2">观看次数：250</text>
+               </view>
+               <view class="focus-content-left" style="margin-left:20rpx;">
+                  <image src="../../images/live_recommend.jpg" class="focus-content-leftimg"  mode="aspectFill"/>
+                  <text class="focus-content-leftp1">2016-11-29 今日聚焦</text>
+                  <text class="focus-content-leftp2">观看次数：298</text>
+              </view>  
+            </view>
+            <view class="focus-content">
+              <view class="focus-content-left">
+                  <image src="../../images/live_recommend.jpg" class="focus-content-leftimg"  mode="aspectFill"/>
+                  <text class="focus-content-leftp1">2016-11-09 今日聚焦</text>
+                  <text class="focus-content-leftp2">观看次数：250</text>
+               </view>
+               <view class="focus-content-left" style="margin-left:20rpx;">
+                  <image src="../../images/live_recommend.jpg" class="focus-content-leftimg"  mode="aspectFill"/>
+                  <text class="focus-content-leftp1">2016-11-29 今日聚焦</text>
+                  <text class="focus-content-leftp2">观看次数：298</text>
+              </view>  
+            </view> 
+           </navigator> 
+          </view> 
+        </view>
+     </swiper-item>
+     <!--战绩回顾-->
+     <swiper-item>
+      <view class="success">
+        <view class="success-content-whole">
+          <navigator url="../programme/programme">
+            <view class="success-content">
+              <view class="success-content-left">
+                  <image src="../../images/live_studiopic.jpg" class="success-content-leftimg"  mode="aspectFill"/>
+                  <text class="success-content-leftp1">2016-11-09 推荐</text>
+                  <text class="success-content-leftp2">观看次数：250</text>
+               </view>
+               <view class="success-content-left" style="margin-left:20rpx;">
+                  <image src="../../images/live_studiopic.jpg" class="success-content-leftimg"  mode="aspectFill"/>
+                  <text class="success-content-leftp1">2016-11-29 推荐</text>
+                  <text class="success-content-leftp2">观看次数：298</text>
+              </view>  
+            </view>
+            <view class="success-content">
+              <view class="success-content-left">
+                  <image src="../../images/live_studiopic.jpg" class="success-content-leftimg"  mode="aspectFill"/>
+                  <text class="success-content-leftp1">2016-11-09 推荐</text>
+                  <text class="success-content-leftp2">观看次数：250</text>
+               </view>
+               <view class="success-content-left" style="margin-left:20rpx;">
+                  <image src="../../images/live_studiopic.jpg" class="success-content-leftimg"  mode="aspectFill"/>
+                  <text class="success-content-leftp1">2016-11-29 推荐</text>
+                  <text class="success-content-leftp2">观看次数：298</text>
+              </view>  
+            </view>
+           </navigator> 
+          </view> 
+        </view>
+      </swiper-item>
+      <!--热点原创-->
+     <swiper-item>
+      <view class="original">
+        <view class="original-content-whole">
+          <navigator url="../programme/programme">
+            <view class="original-content">
+              <view class="original-content-left">
+                  <image src="../../images/live_recommend.jpg" class="original-content-leftimg"  mode="aspectFill"/>
+                  <text class="original-content-leftp1">2016-11-09 推荐</text>
+                  <text class="original-content-leftp2">观看次数：250</text>
+               </view>
+               <view class="original-content-left" style="margin-left:20rpx;">
+                  <image src="../../images/live_recommend.jpg" class="original-content-leftimg"  mode="aspectFill"/>
+                  <text class="original-content-leftp1">2016-11-29 推荐</text>
+                  <text class="original-content-leftp2">观看次数：298</text>
+              </view>  
+            </view>
+            <view class="original-content">
+              <view class="original-content-left">
+                  <image src="../../images/live_recommend.jpg" class="original-content-leftimg"  mode="aspectFill"/>
+                  <text class="original-content-leftp1">2016-11-09 推荐</text>
+                  <text class="original-content-leftp2">观看次数：250</text>
+               </view>
+               <view class="original-content-left" style="margin-left:20rpx;">
+                  <image src="../../images/live_recommend.jpg" class="original-content-leftimg"  mode="aspectFill"/>
+                  <text class="original-content-leftp1">2016-11-29 推荐</text>
+                  <text class="original-content-leftp2">观看次数：298</text>
+              </view>  
+            </view> 
+           </navigator>
+          </view> 
+        </view>
+      </swiper-item>
+      <!--内部教程-->
+     <swiper-item>
+      <view class="teach">
+        <view class="teach-content-whole">
+           <navigator url="../programme/programme">
+            <view class="teach-content">
+              <view class="teach-content-left">
+                  <image src="../../images/live_studiopic.jpg" class="teach-content-leftimg"  mode="aspectFill"/>
+                  <text class="teach-content-leftp1">2016-11-09 推荐</text>
+                  <text class="teach-content-leftp2">观看次数：250</text>
+               </view>
+               <view class="teach-content-left" style="margin-left:20rpx;">
+                  <image src="../../images/live_studiopic.jpg" class="teach-content-leftimg"  mode="aspectFill"/>
+                  <text class="teach-content-leftp1">2016-11-29 推荐</text>
+                  <text class="teach-content-leftp2">观看次数：298</text>
+              </view>  
+            </view>
+            <view class="teach-content">
+              <view class="teach-content-left">
+                  <image src="../../images/live_studiopic.jpg" class="teach-content-leftimg"  mode="aspectFill"/>
+                  <text class="teach-content-leftp1">2016-11-09 推荐</text>
+                  <text class="teach-content-leftp2">观看次数：250</text>
+               </view>
+               <view class="teach-content-left" style="margin-left:20rpx;">
+                  <image src="../../images/live_studiopic.jpg" class="teach-content-leftimg"  mode="aspectFill"/>
+                  <text class="teach-content-leftp1">2016-11-29 推荐</text>
+                  <text class="teach-content-leftp2">观看次数：298</text>
+              </view>  
+            </view> 
+           </navigator>
+          </view> 
+        </view>
+      </swiper-item>
+    </swiper>
+</view>

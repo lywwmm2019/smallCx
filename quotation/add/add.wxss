@@ -1,0 +1,109 @@
+page{
+    background:#fff;
+    font-family: "微软雅黑";
+}
+.linef{
+    width:100%;
+    height:20rpx;
+    background:#f5f5f5;
+}
+.addClassfiy{
+    height:68rpx;
+    border-bottom: 1px solid #e0e0e0;
+    background:#fff;
+    white-space: nowrap;
+    display: flex;
+    padding-top:20rpx;
+    overflow:hidden;
+}
+.addClassfiy view{
+    width:250rpx;
+    display:inline-block;
+    overflow:hidden;
+    text-align: center;
+    font-size:30rpx;
+    color:#666;
+    height:100%;
+}
+.addClassfiy view text{
+    text-algin:center;
+}
+.addClassfiy view .swiper-tab-lefton{
+    color:#ed3f48;
+    padding-bottom:4rpx;
+    border-bottom:1px solid #ed3f48;
+}
+.addTitle{
+    height:74rpx;
+    border:1px solid #e0e0e0;
+    border-left:none;
+    border-right:none;
+    line-height:72rpx;
+    padding:0 30rpx 0 17rpx;
+}
+.addTitle text{
+    color:#666;
+    font-size:30rpx;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.addList{
+    width:100%;
+}
+.addList swiper-item{
+    overflow:hidden;
+}
+.addList swiper-item .outer{
+    height:124rpx;
+    border-bottom:1px solid #e0e0e0;
+    width:100%;
+    display:flex;
+}
+.addList swiper-item .leftFont,.addList swiper-item .rightBtn{
+    flex:1;
+    margin:0 20rpx;
+}
+.addList swiper-item .leftFont .chinese{
+    color:#222;
+    font-size:30rpx;
+    padding-top:26rpx;
+    display: block;
+}
+.addList swiper-item .leftFont .english{
+    font-size:24rpx;
+    color:#999;
+    display:block;
+    padding-top:10rpx;
+}
+.addList swiper-item .rightBtn text{
+    display:block;
+    width:42rpx;
+    height:42rpx;
+    font-size:40rpx;
+    border:1px solid #ed3f48;
+    color:#ed3f48;
+    line-height:38rpx;
+    text-align:center;
+    border-radius: 50%;
+    float:right;
+    margin-top:44rpx;
+    margin-right:12rpx;
+}
+.addList swiper-item .rightBtn .grayon{
+    display:block;
+    width:42rpx;
+    height:42rpx;
+    font-size:40rpx;
+    border:1px solid #afafaf;
+    color:#afafaf;
+    line-height:36rpx;
+    text-align:center;
+    border-radius: 50%;
+    float:right;
+    margin-top:44rpx;
+    margin-right:12rpx;
+}

@@ -1,0 +1,263 @@
+<view class="container">
+ <view class="top_vedio">
+  <view class="board">
+    <view class="board-item">
+      <text class="{{tabSwitch[0]}}" bindtap="swichNav" data-current='0'>视频直播</text>   
+    </view>
+    <view class="board-item">
+      <text class="{{tabSwitch[1]}}" bindtap="swichNav" data-current='1'>大咖工作室</text>
+    </view> 
+   </view>  
+  </view>
+ 
+  <!--视频直播-->
+ <swiper current="{{currentTab}}"  class="swiper-box" duration="300" style="width:100%; height:{{height}}px;" bindchange="bindSwiper">
+  <swiper-item >
+    <scroll-view scroll-y="true" style="height:{{height}}px;">
+    <view id="livevideo" class="livevideo scroll-view-item_H">
+      <view class="vedio-play">
+         <image src="../images/live_03.jpg" class="vedio-play-img" mode="aspectFill"/>
+         <view class="vedio-play-item">
+            <text>《早安财经》播放中</text>
+            <view class="vedio-play-item-textright"><image src="../images/live_04.png" style="width:20px;height:12px;float:left;display:inline-block;margin:10rpx;" mode="aspectFill"/><view style="float:right;">2666观看</view></view>
+          </view>
+      </view>
+ 
+ <!--直播室-->
+      <view class="studio">
+       <navigator url="detail_talk/detail_talk" hover-class="none">
+        <view class="studio-item">
+            <view class="studio-item-title"><image src="../images/live_vediotitle01.png" style="width:32rpx;height:32rpx;margin:0 10rpx 0 0" mode="aspectFill"/>直播室</view>           
+        </view>
+        </navigator>
+        <view class="studio-content-whole">
+          <navigator url="detail_talk/detail_talk" hover-class="none">
+            <view class="studio-content">
+               <view class="studio-content-left">
+                  <image src="../images/live_studiopic.jpg" class="studio-content-leftimg"  mode="aspectFill"/>
+                  <text class="studio-content-leftp1">今日热点来分析分析板块</text>
+                  <text class="studio-content-leftp2">讲师：秦保家、张真彪</text>
+               </view>
+              
+              <view class="studio-content-left" style="margin-left:20rpx;">
+                  <image src="../images/live_studiopic.jpg" class="studio-content-leftimg"  mode="aspectFill"/>
+                  <text class="studio-content-leftp1">今日热点来分析分析板块</text>
+                  <text class="studio-content-leftp2">讲师：秦保家、张真彪</text>
+              </view>  
+            </view>
+            <view class="studio-content">
+              <view class="studio-content-left">
+                  <image src="../images/live_studiopic.jpg" class="studio-content-leftimg"  mode="aspectFill"/>
+                  <text class="studio-content-leftp1">今日热点来分析分析板块</text>
+                  <text class="studio-content-leftp2">讲师：秦保家、张真彪</text>
+              </view>
+              <view class="studio-content-left" style="margin-left:20rpx;">
+                  <image src="../images/live_studiopic.jpg" class="studio-content-leftimg"  mode="aspectFill"/>
+                  <text class="studio-content-leftp1">今日热点来分析分析板块</text>
+                  <text class="studio-content-leftp2">讲师：秦保家、张真彪</text>
+              </view>  
+            </view>
+           </navigator>
+          </view> 
+        </view>
+<!--精品视频-->
+        <view class="Exquisitevideo">
+         <navigator url="list/list" hover-class="none">
+            <view class="Exquisitevideo-item">
+                <view class="Exquisitevideo-item-title"><image src="../images/live_vediotitle02.png" style="width:32rpx;height:32rpx;margin:0 10rpx 0 0" mode="aspectFill"/>精品视频</view>
+                <image src="../images/live_arrow.png" class="Exquisitevideo-item-img"  mode="aspectFill"/>
+            </view>
+         </navigator>
+            <view class="Exquisitevideo-content-whole">
+              <navigator url="programme/programme" hover-class="none">
+                <view class="Exquisitevideo-content">
+                  <view class="Exquisitevideo-content-left">
+                      <image src="../images/live_studiopic.jpg" class="Exquisitevideo-content-leftimg"  mode="aspectFill"/>
+                      <text class="Exquisitevideo-content-leftp1">今日热点来分析分析板块</text>
+                      <text class="Exquisitevideo-content-leftp2">讲师：秦保家、张真彪</text>
+                  </view>
+                  <view class="Exquisitevideo-content-left" style="margin-left:20rpx;">
+                      <image src="../images/live_studiopic.jpg" class="Exquisitevideo-content-leftimg"  mode="aspectFill"/>
+                      <text class="Exquisitevideo-content-leftp1">今日热点来分析分析板块</text>
+                      <text class="Exquisitevideo-content-leftp2">讲师：秦保家、张真彪</text>
+                  </view>  
+                </view>
+                <view class="Exquisitevideo-content">
+                  <view class="Exquisitevideo-content-left">
+                      <image src="../images/live_studiopic.jpg" class="Exquisitevideo-content-leftimg"  mode="aspectFill"/>
+                      <text class="Exquisitevideo-content-leftp1">今日热点来分析分析板块</text>
+                      <text class="Exquisitevideo-content-leftp2">讲师：秦保家、张真彪</text>
+                  </view>
+                  <view class="Exquisitevideo-content-left" style="margin-left:20rpx;">
+                      <image src="../images/live_studiopic.jpg" class="Exquisitevideo-content-leftimg"  mode="aspectFill"/>
+                      <text class="Exquisitevideo-content-leftp1">今日热点来分析分析板块</text>
+                      <text class="Exquisitevideo-content-leftp2">讲师：秦保家、张真彪</text>
+                  </view>  
+                </view>
+               </navigator>
+              </view> 
+        </view>
+  <!--投资课堂-->
+      <view class="investclass">
+       <navigator url="list/list" hover-class="none">
+        <view class="investclass-item">
+            <view class="investclass-item-title"><image src="../images/live_vediotitle03.png" style="width:32rpx;height:32rpx;margin:0 10rpx 0 0" mode="aspectFill"/>投资课堂</view>
+              <image src="../images/live_arrow.png" class="studio-item-img"  mode="aspectFill"/>
+        </view> 
+      </navigator> 
+        <view class="investclass-content-whole">
+          <navigator url="programme/programme" hover-class="none">
+           <view class="investclass-content">
+              <view class="investclass-content-left">
+                <image src="../images/live_studiopic.jpg" class="studio-content-leftimg"  mode="aspectFill"/>
+                <text class="investclass-content-leftp1">今日热点来分析分析板块</text>
+                <text class="investclass-content-leftp2">讲师：秦保家、张真彪</text>
+              </view>
+              <view class="investclass-content-left" style="margin-left:20rpx;">
+                <image src="../images/live_studiopic.jpg" class="studio-content-leftimg"  mode="aspectFill"/>
+                <text class="investclass-content-leftp1">今日热点来分析分析板块</text>
+                <text class="investclass-content-leftp2">讲师：秦保家、张真彪</text>
+             </view>   
+          </view>
+          <view class="investclass-content">
+              <view class="investclass-content-left">
+                <image src="../images/live_studiopic.jpg" class="studio-content-leftimg"  mode="aspectFill"/>
+                <text class="investclass-content-leftp1">今日热点来分析分析板块</text>
+                <text class="investclass-content-leftp2">讲师：秦保家、张真彪</text>
+              </view>
+              <view class="investclass-content-left" style="margin-left:20rpx;">
+                <image src="../images/live_studiopic.jpg" class="studio-content-leftimg"  mode="aspectFill"/>
+                <text class="investclass-content-leftp1">今日热点来分析分析板块</text>
+                <text class="investclass-content-leftp2">讲师：秦保家、张真彪</text>
+             </view>   
+          </view>
+          </navigator>
+        </view>  
+      </view>
+  </view>
+</scroll-view>
+</swiper-item>
+  <!--大咖工作室-->
+  
+  <swiper-item>
+   <scroll-view scroll-y="true" style="height:{{height}}px;">
+    <view id="dakastudio" class="dakastudio scroll-view-item_H">
+      <navigator url="dakadetail/dakadetail" hover-class="none">
+        <view class="item">
+            <image src="../images/live_studiopic.jpg" class="item-img"  mode="aspectFill"/>
+            <view class="item-text">
+              <view class="list-title">打好本月收官之战</view>
+              <view class="list-type">直播风格：秦保家</view>
+              <view class="list-word">今日主题：首席前瞻大布局，稳准狠</view>
+              <view class="list-icon"><image src="../images/live_dakastudio_01.png" style="width:27rpx;height:24rpx;margin:0 10rpx 0 0" mode="aspectFill"/>正在直播</view>
+            </view>
+         </view>
+        
+        <view class="item">
+            <image src="../images/live_studiopic.jpg" class="item-img"  mode="aspectFill"/>
+            <view class="item-text">
+              <view class="list-title">打好本月收官之战</view>
+              <view class="list-type">直播风格：秦保家</view>
+              <view class="list-word">今日主题：首席前瞻大布局，稳准狠</view>
+              <view class="list-icon"><image src="../images/live_dakastudio_01.png" style="width:27rpx;height:24rpx;margin:0 10rpx 0 0" mode="aspectFill"/>正在直播</view>
+            </view>
+        </view>
+        <view class="item">
+            <image src="../images/live_studiopic.jpg" class="item-img"  mode="aspectFill"/>
+            <view class="item-text">
+              <view class="list-title">打好本月收官之战</view>
+              <view class="list-type">直播风格：秦保家</view>
+              <view class="list-word">今日主题：首席前瞻大布局，稳准狠</view>
+              <view class="list-icon"><image src="../images/live_dakastudio_01.png" style="width:27rpx;height:24rpx;margin:0 10rpx 0 0" mode="aspectFill"/>正在直播</view>
+            </view>
+        </view>
+        <view class="item">
+            <image src="../images/live_studiopic.jpg" class="item-img"  mode="aspectFill"/>
+            <view class="item-text">
+              <view class="list-title">打好本月收官之战</view>
+              <view class="list-type">直播风格：秦保家</view>
+              <view class="list-word">今日主题：首席前瞻大布局，稳准狠</view>
+              <view class="list-icon"><image src="../images/live_dakastudio_01.png" style="width:27rpx;height:24rpx;margin:0 10rpx 0 0" mode="aspectFill"/>正在直播</view>
+            </view>
+        </view>
+        <view class="item">
+            <image src="../images/live_studiopic.jpg" class="item-img"  mode="aspectFill"/>
+            <view class="item-text">
+              <view class="list-title">打好本月收官之战</view>
+              <view class="list-type">直播风格：秦保家</view>
+              <view class="list-word">今日主题：首席前瞻大布局，稳准狠</view>
+              <view class="list-icon"><image src="../images/live_dakastudio_01.png" style="width:27rpx;height:24rpx;margin:0 10rpx 0 0" mode="aspectFill"/>正在直播</view>
+            </view>
+        </view>
+        <view class="item">
+            <image src="../images/live_studiopic.jpg" class="item-img"  mode="aspectFill"/>
+            <view class="item-text">
+              <view class="list-title">打好本月收官之战</view>
+              <view class="list-type">直播风格：秦保家</view>
+              <view class="list-word">今日主题：首席前瞻大布局，稳准狠</view>
+              <view class="list-icon"><image src="../images/live_dakastudio_01.png" style="width:27rpx;height:24rpx;margin:0 10rpx 0 0" mode="aspectFill"/>正在直播</view>
+            </view>
+        </view>
+        <view class="item">
+            <image src="../images/live_studiopic.jpg" class="item-img"  mode="aspectFill"/>
+            <view class="item-text">
+              <view class="list-title">打好本月收官之战</view>
+              <view class="list-type">直播风格：秦保家</view>
+              <view class="list-word">今日主题：首席前瞻大布局，稳准狠</view>
+              <view class="list-icon"><image src="../images/live_dakastudio_01.png" style="width:27rpx;height:24rpx;margin:0 10rpx 0 0" mode="aspectFill"/>正在直播</view>
+            </view>
+        </view>
+        <view class="item">
+            <image src="../images/live_studiopic.jpg" class="item-img"  mode="aspectFill"/>
+            <view class="item-text">
+              <view class="list-title">打好本月收官之战</view>
+              <view class="list-type">直播风格：秦保家</view>
+              <view class="list-word">今日主题：首席前瞻大布局，稳准狠</view>
+              <view class="list-icon"><image src="../images/live_dakastudio_01.png" style="width:27rpx;height:24rpx;margin:0 10rpx 0 0" mode="aspectFill"/>正在直播</view>
+            </view>
+        </view>
+        <view class="item">
+            <image src="../images/live_studiopic.jpg" class="item-img"  mode="aspectFill"/>
+            <view class="item-text">
+              <view class="list-title">打好本月收官之战</view>
+              <view class="list-type">直播风格：秦保家</view>
+              <view class="list-word">今日主题：首席前瞻大布局，稳准狠</view>
+              <view class="list-icon"><image src="../images/live_dakastudio_01.png" style="width:27rpx;height:24rpx;margin:0 10rpx 0 0" mode="aspectFill"/>正在直播</view>
+            </view>
+        </view>
+        <view class="item">
+            <image src="../images/live_studiopic.jpg" class="item-img"  mode="aspectFill"/>
+            <view class="item-text">
+              <view class="list-title">打好本月收官之战</view>
+              <view class="list-type">直播风格：秦保家</view>
+              <view class="list-word">今日主题：首席前瞻大布局，稳准狠</view>
+              <view class="list-icon"><image src="../images/live_dakastudio_01.png" style="width:27rpx;height:24rpx;margin:0 10rpx 0 0" mode="aspectFill"/>正在直播</view>
+            </view>
+        </view>
+        <view class="item">
+            <image src="../images/live_studiopic.jpg" class="item-img"  mode="aspectFill"/>
+            <view class="item-text">
+              <view class="list-title">打好本月收官之战</view>
+              <view class="list-type">直播风格：秦保家</view>
+              <view class="list-word">今日主题：首席前瞻大布局，稳准狠</view>
+              <view class="list-icon"><image src="../images/live_dakastudio_01.png" style="width:27rpx;height:24rpx;margin:0 10rpx 0 0" mode="aspectFill"/>正在直播</view>
+            </view>
+        </view>
+        <view class="item">
+            <image src="../images/live_studiopic.jpg" class="item-img"  mode="aspectFill"/>
+            <view class="item-text">
+              <view class="list-title">打好本月收官之战</view>
+              <view class="list-type">直播风格：秦保家</view>
+              <view class="list-word">今日主题：首席前瞻大布局，稳准狠</view>
+              <view class="list-icon"><image src="../images/live_dakastudio_01.png" style="width:27rpx;height:24rpx;margin:0 10rpx 0 0" mode="aspectFill"/>正在直播</view>
+            </view>
+        </view>
+      </navigator> 
+     </view>
+     </scroll-view> 
+    </swiper-item>     
+   </swiper>
+</view>
+
+
+

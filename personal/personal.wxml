@@ -1,0 +1,111 @@
+<<<<<<< .mine
+<!--personal/personal.wxml-->
+<text>personal/personal.wxml</text>
+=======
+
+  <view class="per_bj">
+      <image class="per_tx_bj" src="../images/person_bj.png" background-size="cover"></image>     
+      <view class="per_tx_dc">
+        <navigator url="change_head/change_head?title=navigate" hover-class="navigator-hover">
+           <view class="per_tx"></view>
+         </navigator>
+        <navigator url="register/register?title=navigate" hover-class="navigator-hover">
+            <text class="per_name">点击登录</text> 
+        </navigator>
+      </view>
+  </view>
+  <!--快速开户-->
+  <navigator url="../open-account/open-account" hover-class="navigator-hover">
+  <view class="per_nr">
+    <view class="per_nr_zuo">
+      <image src="../images/person_kskh.png"  class="per_tb"></image>
+      <text>快速开户</text>
+    </view>
+    <view class="per_nr_you">
+        <image src="../images/per_throw.png" class="per_jt"></image>
+    </view>
+    <view class="clear"></view>
+  </view>
+  </navigator>
+ <!--我要下单-->
+ <navigator url="iwill_order/iwill_order?title=navigate" hover-class="navigator-hover">
+  <view class="per_nr">
+    <view class="per_nr_zuo">
+      <image src="../images/person_kskh.png"  class="per_tb"></image>
+      <text>我要下单</text>
+    </view>
+    <view class="per_nr_you">
+        <image src="../images/per_throw.png" class="per_jt"></image>
+    </view>
+    <view class="clear"></view>
+  </view>
+ </navigator>
+  <!--积分商城-->
+  <navigator url="integral_mail/integral_mail?title=navigate" hover-class="navigator-hover">
+  <view class="per_nr">
+    <view class="per_nr_zuo">
+      <image src="../images/person_jfsc.png"  class="per_tb"></image>
+      <text>积分商城</text>
+    </view>
+    <view class="per_nr_you">
+        <text class="wenzi"></text>
+        <image src="../images/per_throw.png" class="per_jt"></image>
+    </view>
+    <view class="clear"></view>
+  </view>
+  </navigator>
+  <!--咨询记录-->
+  <!--
+  <view class="per_nr">
+    <view class="per_nr_zuo">
+      <image src="../images/person_zxjl.png"  class="per_tb"></image>
+      <text>咨询记录</text>
+    </view>
+    <view class="per_nr_you">
+        <image src="../images/per_throw.png" class="per_jt"></image>
+    </view>
+    <view class="clear"></view>
+  </view>
+  -->
+  <!--分级服务介绍-->
+  <navigator url="service_level/service_level?title=navigate" hover-class="navigator-hover">
+  <view class="per_nr">
+    <view class="per_nr_zuo">
+      <image src="../images/person_fjfw.png"  class="per_tb"></image>
+      <text>分级服务介绍</text>
+    </view>
+    <view class="per_nr_you">
+        <image src="../images/per_throw.png" class="per_jt"></image>
+    </view>
+    <view class="clear"></view>
+  </view>
+  </navigator>
+  <!--意见反馈-->
+  <navigator url="feedback/feedback?title=navigate" hover-class="navigator-hover">
+  <view class="per_nr" style = "margin-top:20px;border-top: 1px solid #e0e0e0;">
+    <view class="per_nr_zuo">
+      <image src="../images/person_yjfk.png"  class="per_tb"></image>
+      <text>意见反馈</text>
+    </view>
+    <view class="per_nr_you">
+        <image src="../images/per_throw.png" class="per_jt"></image>
+    </view>
+    <view class="clear"></view>
+  </view>
+  </navigator>
+  <!--设置-->
+<navigator url="setup/setup?title=navigate" hover-class="navigator-hover">
+  <view class="per_nr">
+    <view class="per_nr_zuo">
+      <image src="../images/person_sz.png"  class="per_tb"></image>
+      <text>设置</text>
+    </view>  
+    <view class="per_nr_you">
+        <image src="../images/per_throw.png" class="per_jt"></image>
+    </view>
+    <view class="clear"></view>
+  </view>
+</navigator>
+<!--
+<navigator url="risk_tips/risk_tips?title=navigate" hover-class="navigator-hover">跳转到新页面</navigator>
+-->>>>>>>> .r21931

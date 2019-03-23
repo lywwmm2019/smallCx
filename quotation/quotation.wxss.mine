@@ -1,0 +1,88 @@
+/* quotation/quotation.wxss */
+page{
+    background:#f5f5f5;
+    font-family: "微软雅黑";
+}
+.hqClassify{
+    height:80rpx;
+    border-bottom: 1px solid #e0e0e0;
+    background:#fff;
+    white-space: nowrap;
+    display: flex;
+    margin-bottom:30rpx;
+    padding-top:30rpx;
+    overflow:hidden;
+}
+.hqClassify view{
+    width:187.5rpx;
+    display:inline-block;
+    overflow:hidden;
+    text-align: center;
+    font-size:30rpx;
+    color:#666;
+    height:100%;
+}
+.hqClassify view text{
+    padding-bottom:10rpx;
+}
+.hqClassify .swiper-tab-lefton{
+    color:#ed3f48;
+    padding-bottom:10rpx;
+    border-bottom:1px solid #ed3f48;
+}
+.swiper-box swiper-item{
+    border-top:1px solid #e0e0e0;
+    border-bottom:1px solid #e0e0e0;
+}
+.swiper-box .classifyName{
+    display:flex;
+    height:72rpx;
+    border-bottom:1px solid #e0e0e0;
+    line-height:72rpx;
+    color:#666;
+    font-size:28rpx;
+    background:#fff;
+}
+.swiper-box .classifyName view{
+    flex:1;
+    text-align: center;
+}
+.swiper-box .classifyDetail .classifyItem{
+    height:110rpx;
+    border-bottom:1px solid #e0e0e0;
+    background:#fff;
+    display: flex;
+    
+}
+.swiper-box .classifyDetail .classifyItem view{
+    flex:1;
+    text-align: center;
+    font-size:28rpx;
+    color:#222;
+}
+.swiper-box .classifyDetail .classifyItem .nameSty{
+    margin-top:20rpx;
+}
+.swiper-box .classifyDetail .classifyItem .nameSty .engSty{
+    display:block;
+    color:#999;
+    font-size:26rpx;
+}
+.swiper-box .classifyDetail .classifyItem .numSty{
+    line-height:110rpx;
+    color:#f54545;
+}
+.swiper-box .classifyDetail .addBtn{
+    width:588rpx;
+    height:78rpx;
+    border:1px solid #a0a0a0;
+    border-radius: 9rpx;
+    margin:60rpx auto;
+    color:#666;
+    text-align: center;
+    line-height:78rpx;
+    font-size:30rpx;
+}
+.swiper-box .classifyDetail .addHover{
+    border:1px solid #ed3f48;
+}

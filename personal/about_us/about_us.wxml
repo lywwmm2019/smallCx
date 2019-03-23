@@ -1,0 +1,64 @@
+<view class="sympol">
+  <image src="/images/person_about_01.png" class="sympol_img"></image>
+  <text class="appName">爱杠杆</text>
+  <text class="edition">版本号:<text>2121</text></text>
+</view>
+
+  <!--公司概况-->
+  <navigator url="../company_profile/company_profile?title=navigate" hover-class="navigator-hover">
+  <view class="per_nr">
+    <view class="per_nr_zuo">
+      <text>公司概况</text>
+    </view>
+    <view class="per_nr_you">      
+        <image src="/images/per_throw.png" class="per_jt"></image>
+    </view>
+    <view class="clear"></view>
+  </view>
+  </navigator>
+  <!--企业文化-->
+  <navigator url="../corporate_culture/corporate_culture?title=navigate" hover-class="navigator-hover">
+  <view class="per_nr">
+    <view class="per_nr_zuo">
+      <text>企业文化</text>
+    </view>
+    <view class="per_nr_you">
+        <image src="/images/per_throw.png" class="per_jt"></image>
+    </view>
+    <view class="clear"></view>
+  </view>
+  </navigator>
+  <!--服务电话-->
+  <view class="per_nr"  bindtap = "talkPhone">
+    <view class="per_nr_zuo">
+      <text>服务电话</text>
+    </view>
+    <view class="per_nr_you">
+        <text class="wenzi">09：00 - 22：00</text>
+        <image src="/images/per_throw.png" class="per_jt"></image>
+    </view>
+    <view class="clear"></view>
+  </view>
+  <!--风险提示-->
+  <navigator url="../risk_tips/risk_tips?title=navigate" hover-class="navigator-hover">
+  <view class="per_nr">
+    <view class="per_nr_zuo">
+      <text>风险提示</text>
+    </view>
+    <view class="per_nr_you">
+        <image src="/images/per_throw.png" class="per_jt"></image>
+    </view>
+    <view class="clear"></view>
+  </view>
+  </navigator>
+  <view class="box_shadow" style="display:{{tabSwitch}}"></view>
+  <view class="talk_phone" style="display:{{tabSwitch}}">
+     <text class="tc_title">财富人生 证金相伴</text>
+     <text class="tc_tel">财富服务电话：010-53955285</text>
+     <view class="btn">
+       <button bindtap = "cancelBtn">取消</button>
+       <button bindtap = "passBtn">好</button>
+     </view>
+  </view>
+
+  

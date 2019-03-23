@@ -1,0 +1,10 @@
+<view class="feedback">
+ <text class="yourideas">您的建议将帮助我们更好的改进APP!</text>
+ <textarea placeholder="请输入您对爱杠杆的意见或建议（5个字以上）" focus="{{focus}}" maxlength="0"  class="youideas_nr"/>
+
+ <text class="yourideas">请留下您的联系方式!</text>
+ <form  bindsubmit="formSubmit">
+   <input type="text" class="tel" placeholder="请输入您的手机号"/>
+   <button class="submit">提交</button>
+ </form>
+</view>

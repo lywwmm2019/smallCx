@@ -1,0 +1,10 @@
+<view class="change_nickname">
+   <text  class="tips">请输入昵称</text>
+   <view class="per_register">
+    <view class="per_form">
+        <input  maxlength="11" placeholder="" type="tel" class="tel"/>     
+        <button class="conservation" bindtap="seveNick">保存</button>
+    </view>
+    <text class='demand'>1-5位简体中文、英文字母或数字组合</text>
+  </view>
+</view>

@@ -1,0 +1,202 @@
+page{
+    background:#f5f5f5;
+    font-family:"微软雅黑";
+}
+.hq{
+    width:100%;
+    height:116rpx;
+    border-bottom:1px solid #e0e0e0;
+    background:#fff;
+    display:flex;
+}
+.hq .jyslogo{
+    width:36rpx;
+    height:36rpx;
+    float:left;
+    padding-left:15rpx;
+    margin-top:32rpx;
+    margin-right:26rpx;
+}
+.hq .jysName{
+    float:left;
+    padding-top:22rpx;
+    color:#222;
+    flex:1;
+}
+.hq .jysName .jysNaChin{
+    font-size:28rpx;
+}
+.hq .jysName .jysNaEng{
+    font-size:22rpx;
+    color:#666;
+    padding-top:8rpx;
+}
+.hq .jysNum1{
+    font-size:28rpx;
+    color:#0f990f;
+    float:left;
+    flex:1;
+    line-height:116rpx;
+}
+.hq .traigle{
+    width:0;
+    height:0;
+    border-top:18rpx solid #000;
+    border-left:18rpx solid transparent;
+    border-right:18rpx solid transparent;
+    margin:45rpx 30rpx 0;
+}
+.outer{
+    margin:46rpx 0 13rpx 28rpx;
+    clear:both;
+}
+.leftCont{
+    width:98rpx;
+    height:86rpx;
+    background:#d0cfcf;
+    border-radius: 50%;
+    padding-top:12rpx;
+    overflow:hidden;
+    float:left;
+    margin-right:16rpx;
+}
+.leftCont .tx{
+    width:64rpx;
+    height:86rpx;
+    display: block;
+    margin:0 auto;
+}
+.outer .rightCont{
+    float:left;
+    width:580rpx;
+}
+.outer .rightCont .zwTime{
+    font-size:24rpx;
+    color:#666;
+    padding-left:14rpx;
+    padding-top:8rpx;
+}
+.outer .rightCont .listCon{
+    padding:13rpx 14rpx;
+    font-size:26rpx;
+    color:#666;
+    line-height:54rpx;
+    border:1px solid #c0c0c0;
+    margin-top:12rpx;
+    margin-left:14rpx;
+    position:relative;
+    color:#000;
+}
+.outer .rightCont .col{
+    color:#599cf5;
+    font-size:26rpx;
+}
+.outer .rightCont .kefuBtn{
+    color:#599cf6;
+    font-size:28rpx;
+    line-height:80rpx;
+    padding-left:28rpx;
+}
+.outer .rightCont .disinline{
+    display:inline;
+}
+.outer .yesno{
+    color:#599cf6;
+}
+.outer .yesno text{
+    margin-right:70rpx;
+}
+.inpArea{
+    height:104rpx;
+    border-top:1px solid #e0e0e0;
+    background:#fff;
+    padding-top:20rpx;
+}
+.inpArea .content{
+    width:474rpx;
+    height:74rpx;
+    border:1px solid #e0e0e0;
+    border-radius: 8rpx;
+    margin:0 18rpx 0 18rpx;
+    padding-left:24rpx;
+    float:left;
+    font-size:32rpx;
+    color:#222;
+}
+.hide{
+    display:none;
+}
+.sent{
+    width:196rpx;
+    height:74rpx;
+    background-color:#fff;
+    float:left;
+    border-radius: 6rpx;
+    font-size:30rpx;
+    text-align:center;
+    line-height:74rpx;
+    color:#666;
+    margin:0;
+    padding:0;
+}
+ .guide{
+    display: block;
+    width:12rpx;
+    height:24rpx;
+    position:absolute;
+    top:10rpx;
+    left:-10rpx;
+    z-index:9;
+ }
+ .yh{
+    margin:0 28rpx 13rpx 28rpx; 
+ }
+ .yh .leftCont{
+     margin-top:43rpx;
+     float:right;
+ }
+ .yh .rigCon{
+     padding:20rpx;
+     margin-top:13rpx;
+     clear:both;
+     float:left;
+     width:520rpx;
+ }
+ .yh .rigCon .pho{
+     text-align:right;
+     color:#999;
+     font-size:28rpx;
+ }
+ .yh .rigCon .contPos{
+     position:relative;
+ }
+ .yh .rigCon .contPos .guide2{
+     width:12rpx;
+     height:24rpx;
+     display: block;
+     transform: rotate(180deg);
+     position:absolute;
+     top:22rpx;
+     right:-8rpx;
+ }
+ .yh .rigCon .content1{
+     display: inline-block;
+     padding:17rpx 10rpx;
+     border:1px solid #e0e0e0;
+     float:right;
+     margin-top:10rpx;
+     font-size:28rpx;
+ }
+ .toastHidden{
+     width:100%;
+     height:98rpx;
+     background:#3a3838;
+     position:fixed;
+     top:0;
+     left:0;
+     color:#fff;
+     font-size:32rpx;
+     line-height:98rpx;
+     padding-left:3%;
+     overflow:hidden;
+ }

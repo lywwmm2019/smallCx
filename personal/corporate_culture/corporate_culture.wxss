@@ -1,0 +1,15 @@
+.tittle{
+    font-family: 'Microsoft Yahei';
+    font-size:30rpx;
+    color:#222;
+    display:block;   
+    padding:20rpx 20rpx 0 20rpx;
+    font-weight: bold;
+}
+.intro{
+    font-family: 'Microsoft Yahei';
+    font-size:30rpx;
+    color:#666;
+    display:block;  
+    padding:20rpx;
+}

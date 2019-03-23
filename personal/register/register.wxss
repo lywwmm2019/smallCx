@@ -1,0 +1,125 @@
+.per_dlh
+{
+    width:100%;
+    height:400rpx;
+    position:relative;
+    margin:0 auto;
+    background:#ec4047;
+}
+.per_logo{
+    width:100%;   
+    position:relative;
+    margin:0 auto;
+    top:70rpx;
+}
+.per_dztu{
+    width:300rpx;
+    height:200rpx;
+    position:relative;
+    margin:0 auto;
+    display: block;
+} 
+.per_select{ 
+    position:relative;
+    margin:0 auto;
+    margin-top:135rpx;
+    width:50%;
+}
+.per_select text{
+    font-family:'Microsoft Yahei';
+    font-size:30rpx;
+    color:#fefdfd;
+
+}
+.per_select .per_dl{
+    position:relative;
+    float:left;
+    
+}
+.per_select .per_zc{
+    position:relative;
+    float:right;
+    color:#f89fa3;
+}
+.per_dx{
+    position:relative;
+    margin:0 auto;
+    width:50%;
+    margin-top:12rpx;
+}
+.per_x_zuo{
+    width:20rpx;
+    border-bottom:1px solid #fff;
+    float:left;
+    margin-left:20rpx;
+}
+.per_x_you{
+    width:20rpx;
+    border-bottom:1px solid #fff;
+    float:right;
+    margin-right:20rpx;
+}
+.clear{
+    clear:both;
+}
+.per_form{
+    width:80%;
+    position:relative;
+    margin:0 auto;
+    margin-top:50rpx; 
+       
+}
+.tel{
+    font-family:'Microsoft Yahei';
+    font-size:30rpx;
+    color:#999999;
+    border-bottom: 1px solid #999999;
+    margin-top: 60px;
+}
+.per_tips{
+    position:relative;
+    margin-top:350rpx;
+
+}
+.per_tips text{
+    display:block;
+    text-align: center;
+    font-family:'Microsoft Yahei';
+    font-size:24rpx;
+    color:#999;
+}
+.pas{
+    font-family:'Microsoft Yahei';
+    font-size:30rpx;
+    color:#999999;
+    border-bottom: 1px solid #999999;
+    margin-top:60rpx;
+
+}
+.per_wjmm{
+    font-family:'Microsoft Yahei';
+    font-size:30rpx;
+    color:#999999;
+    text-align:right;
+    display: block;
+    padding:3% 0;
+}
+
+.submit{
+    position:relative;
+    margin:0 auto;
+    margin-top:70rpx;
+    background:#fff;
+    border: 1px solid #999999;
+    color:#999999;
+    font-family:'Microsoft Yahei';
+    font-size:30rpx;
+    padding:2% 0;
+    
+}
+.per_tips navigator{
+    color:red;
+
+}
+.per_login{display:none;}
+.per_register{display:none;}

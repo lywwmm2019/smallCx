@@ -1,0 +1,140 @@
+
+page{
+    background:rgb(248, 248, 248);
+}
+.sympol{
+    width:100%;
+    height:400rpx;
+    position:relative;
+    margin:0 auto;
+   }
+.sympol_img{
+    width:150rpx;
+    height:150rpx;
+    position:relative;
+    margin:0 auto;
+    display:block;
+    margin-top:90rpx;
+    }
+.appName{
+    font-family: 'Microsoft Yahei';
+    color:#676767;
+    font-size:33rpx;
+    display: block;
+    text-align: center;
+    padding-top:20rpx; 
+}
+.edition{
+    font-family: 'Microsoft Yahei';
+    color:#676767;
+    font-size:33rpx;
+    display: block;
+    text-align: center;
+    padding-top:10rpx; 
+
+}
+.per_nr{
+  width:90%;
+  height:30rpx;
+  position:relative;
+  border-bottom: 1px solid #e0e0e0;
+  padding:5%;
+  background:#fff;
+}
+.per_nr_zuo{
+  width:55%;
+  height:30rpx;
+  position:relative;
+  float:left;
+}
+.per_tb{
+  width:30rpx;
+  height:30rpx;
+  position:relative;
+}
+.per_nr_zuo text{
+    font-family: 'Microsoft Yahei';
+    font-size:30rpx;
+    color:#000;
+    margin-left:15rpx;    
+}
+.per_nr_you{
+   width:45%;
+   height:30rpx;
+   position:relative;
+   float:right;
+}
+.wenzi{
+    font-size:30rpx;
+    color:#8f8989;
+    line-height: 30rpx;
+    float:left;
+
+}
+.per_jt{
+    width:30rpx;
+    height:30rpx;
+    float:right;
+    margin-left:20rpx;
+}
+.clear{clear:both;}
+
+
+.box_shadow{
+   width: 100%;
+   height:100%;
+   position:fixed;
+   top:0;
+   left:0;
+   background:#000;
+   opacity: 0.5;
+   display: none;
+
+}
+.talk_phone{
+    width:80%;
+    position:absolute;
+    height:350rpx;
+    background:#fff;
+    top:50%;
+    margin-top:-175rpx;
+    left:10%;
+    display: none;
+
+}
+.tc_title{
+    font-family: 'Microsoft Yahei';
+    font-size:36rpx;
+    color:#000;
+    text-align: center;
+    display: block;
+    padding: 50rpx  0;
+}
+.tc_tel{
+    font-family: 'Microsoft Yahei';
+    font-size:30rpx;
+    color:#000;
+    text-align: center;
+    display: block;
+    padding: 15rpx  0;
+}
+.btn{
+    width:90%;
+    height:80rpx;
+    position:relative;
+    margin: 0 auto;
+    margin-top: 20rpx;
+}
+.btn button{
+    width:46%;
+    position:relative;
+    float: left;
+    height:80rpx;
+    margin:0 2%;
+    color:#999;
+    font-size:29rpx;
+    line-height: 80rpx;
+
+}
+
+

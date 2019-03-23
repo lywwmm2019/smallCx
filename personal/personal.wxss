@@ -1,0 +1,84 @@
+<<<<<<< .mine
+/* personal/personal.wxss */=======
+/* personal/personal.wxss */
+
+.per_bj{
+    position:relative;
+    width: 100%;
+    height:400rpx;
+}
+.per_tx_bj{
+  width: 100%;
+  height:400rpx;
+}
+.per_tx_dc{
+   width:100%;
+   height:20%;
+   position:absolute;
+   top:25%;
+   left:0;
+}
+.per_name{
+   font-family: 'Microsoft Yahei';
+   font-size:26rpx;
+   color:#fff;
+   text-align: center;
+   display: block; 
+   width:130rpx;
+   margin:0 auto;
+   margin-top: 20rpx;   
+}
+.per_tx{
+   width:180rpx;
+   height:180rpx;
+   position:relative;
+   margin:0 auto;
+   background:#fff;
+   border-radius: 50px;
+   overflow: hidden;
+}
+.per_nr{
+  width:90%;
+  height:30rpx;
+  position:relative;
+  border-bottom: 1px solid #e0e0e0;
+  padding:5%;
+  background:#fff;
+}
+.per_nr_zuo{
+  width:85%;
+  height:30rpx;
+  position:relative;
+  float:left;
+}
+.per_tb{
+  width:30rpx;
+  height:30rpx;
+  position:relative;
+}
+.per_nr_zuo text{
+    font-family: 'Microsoft Yahei';
+    font-size:30rpx;
+    color:#000;
+    margin-left:15rpx;    
+}
+.per_nr_you{
+   width:15%;
+   height:30rpx;
+   position:relative;
+   float:right;
+}
+.wenzi{
+    font-size:30rpx;
+    color:#999;
+    line-height: 30rpx;
+    float:left;
+
+}
+.per_jt{
+    width:30rpx;
+    height:30rpx;
+    float:right;
+    margin-left:20rpx;
+}
+.clear{clear:both;}>>>>>>> .r21931

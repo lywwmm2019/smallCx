@@ -1,0 +1,127 @@
+
+.yhjb{
+    width:94%;
+    position:relative;
+    margin:0 auto;
+    padding:0 3%;
+    overflow:hidden;
+}
+.title{
+    font-size:28rpx;
+    color:#222;
+    font-family:'Microsoft Yahei','微软雅黑';
+    font-weight:600;
+}
+.content{
+    font-size:27rpx;
+    color:#666;
+    width:100%;
+    padding-top: 5%;
+    display:block;
+    line-height:60rpx;
+    word-break:break-all;
+    word-wrap: break-word;
+
+}
+.square{
+    font-size:25rpx;
+    color:#222;
+    font-family:'Microsoft Yahei','微软雅黑';
+    font-weight:600;
+    line-height:60rpx;
+}
+.font_red{
+    font-size:25rpx;
+    color:#ee3e4b;
+    font-family:'Microsoft Yahei','微软雅黑';
+    font-weight:600;
+    line-height:60rpx;
+}
+.sub_title{
+    font-size:27rpx;
+    color:#222;
+    font-family:'Microsoft Yahei','微软雅黑';  
+    line-height:60rpx;
+}
+.profes_serve{
+    width:100%;
+    position:relative;
+    margin:0 auto;
+    height:90rpx;
+}
+.sub_title{
+    width:20%;
+    position:relative;
+    float:left;    
+}
+.square_level{
+    width: 68%;  
+    position:relative;
+    float:left;
+   
+}
+.square_level1{
+    width: 70%;  
+    position:relative;
+    float:left;
+   
+}
+.gold_criticism{
+    width:50%;
+    position:relative;   
+    padding:1% 0;
+    float: left;
+}
+.gold_criticism1{
+    width:100%;
+    position:relative;   
+    padding:1% 0;
+    float: left;
+}
+.icon{
+    width:30rpx;
+    height:30rpx;
+    vertical-align: middle;
+    padding:0 2%;
+}
+.gold_criticism text{
+    font-size:27rpx;
+    color:#666;
+    font-family:'Microsoft Yahei','微软雅黑';
+    font-weight:500;
+    line-height:50rpx;
+}
+.gold_criticism1 text{
+    font-size:27rpx;
+    color:#666;
+    font-family:'Microsoft Yahei','微软雅黑';
+    font-weight:500;
+    line-height:50rpx;
+}
+.title text{
+    position:relative;
+    padding:0 3%;
+    padding-left:0;
+}
+.star{
+    width:35rpx;
+    height:35rpx;
+    position:relative;  
+    padding:0 1%;
+}
+.customer_level{
+    border-bottom:1px solid #eee;
+    width:100%;
+    position:relative;
+    padding:3% 0;
+}
+.tips{
+    font-size:27rpx;
+    color:#ed3f48;
+    font-family:'Microsoft Yahei','微软雅黑';
+    font-weight:500;
+    line-height:50rpx;
+    padding:10% 0;
+    display:block;
+
+}

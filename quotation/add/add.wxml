@@ -1,0 +1,126 @@
+<scroll-view class="addClassfiy" scroll-x="true">
+    <view><text class="swiper-tab-left{{currentTab==0 ? 'on':''}}" data-current="0" bindtap="swichNav">广贵中心</text></view>
+    <view><text class="swiper-tab-left{{currentTab==1 ? 'on':''}}" data-current="1" bindtap="swichNav">湘商商品</text></view>
+    <view><text class="swiper-tab-left{{currentTab==2 ? 'on':''}}" data-current="2" bindtap="swichNav">津贵所</text></view>
+</scroll-view>
+<view class="linef"></view>
+<view class="addTitle">
+    <text class="fl">品种名称</text>
+    <text class="fr">操作</text>
+</view>
+<swiper class="addList" style="height:{{450}}px" current="{{currentTab}}" duration="300" bindchange="bingChange">
+    <swiper-item>
+        <view class="outer">
+            <view class="leftFont">
+                <text class="chinese">粤贵银</text>
+                <text class="english">GDAG</text>
+            </view>
+            <view class="rightBtn">
+                <text data-current="0" class="gray{{arr1[0]=='+'?'':'on'}}" bindtap="changPic">{{arr1[0]}}</text>
+            </view>
+        </view>
+        <view class="outer">
+            <view class="leftFont">
+                <text class="chinese">粤贵铂</text>
+                <text class="english">GDPT</text>
+            </view>
+            <view class="rightBtn">
+                <text data-current="1" class="gray{{arr1[1]=='+'?'':'on'}}" bindtap="changPic">{{arr1[1]}}</text>
+            </view>
+        </view>
+        <view class="outer">
+            <view class="leftFont">
+                <text class="chinese" bindtap="changPic">粤贵钯</text>
+                <text class="english" bindtap="changPic">GDPD</text>
+            </view>
+            <view class="rightBtn">
+                <text data-current="2" class="gray{{arr1[2]=='+'?'':'on'}}" bindtap="changPic">{{arr1[2]}}</text>
+            </view>
+        </view>
+        <view class="outer">
+            <view class="leftFont">
+                <text class="chinese">粤贵银锭</text>
+                <text class="english">GDAGV</text>
+            </view>
+            <view class="rightBtn">
+                <text data-current="3" class="gray{{arr1[3]=='+'?'':'on'}}" bindtap="changPic">{{arr1[3]}}</text>
+            </view>
+        </view>
+    </swiper-item>
+    <swiper-item>
+         <view class="outer">
+            <view class="leftFont">
+                <text class="chinese">原油指数</text>
+                <text class="english" bindtap="changPic">GDAG</text>
+            </view>
+            <view class="rightBtn">
+                <text data-current="4" class="gray{{arr1[4]=='+'?'':'on'}}" bindtap="changPic">{{arr1[4]}}</text>
+            </view>
+        </view>
+        <view class="outer">
+            <view class="leftFont">
+                <text class="chinese">原油指数</text>
+                <text class="english">GDPT</text>
+            </view>
+            <view class="rightBtn">
+                <text data-current="5" class="gray{{arr1[5]=='+'?'':'on'}}" bindtap="changPic">{{arr1[5]}}</text>
+            </view>
+        </view>
+        <view class="outer">
+            <view class="leftFont">
+                <text class="chinese">原油指数</text>
+                <text class="english">GDPD</text>
+            </view>
+            <view class="rightBtn">
+                <text data-current="6" class="gray{{arr1[6]=='+'?'':'on'}}" bindtap="changPic">{{arr1[6]}}</text>
+            </view>
+        </view>
+        <view class="outer">
+            <view class="leftFont">
+                <text class="chinese">原油指数</text>
+                <text class="english">GDAGV</text>
+            </view>
+            <view class="rightBtn">
+                <text data-current="7" class="gray{{arr1[7]=='+'?'':'on'}}" bindtap="changPic">{{arr1[7]}}</text>
+            </view>
+        </view>
+    </swiper-item>
+    <swiper-item>
+         <view class="outer">
+            <view class="leftFont">
+                <text class="chinese">银15kg</text>
+                <text class="english">GDAG</text>
+            </view>
+            <view class="rightBtn">
+                <text data-current="8" class="gray{{arr1[8]=='+'?'':'on'}}" bindtap="changPic">{{arr1[8]}}</text>
+            </view>
+        </view>
+        <view class="outer">
+            <view class="leftFont">
+                <text class="chinese">银15kg</text>
+                <text class="english">GDPT</text>
+            </view>
+            <view class="rightBtn">
+                <text data-current="9" class="gray{{arr1[9]=='+'?'':'on'}}" bindtap="changPic">{{arr1[9]}}</text>
+            </view>
+        </view>
+        <view class="outer">
+            <view class="leftFont">
+                <text class="chinese">银15kg</text>
+                <text class="english">GDPD</text>
+            </view>
+            <view class="rightBtn">
+                <text data-current="10" class="gray{{arr1[10]=='+'?'':'on'}}" bindtap="changPic">{{arr1[10]}}</text>
+            </view>
+        </view>
+        <view class="outer">
+            <view class="leftFont">
+                <text class="chinese">银15kg</text>
+                <text class="english">GDAGV</text>
+            </view>
+            <view class="rightBtn">
+                <text data-current="11" class="gray{{arr1[11]=='+'?'':'on'}}" bindtap="changPic">{{arr1[11]}}</text>
+            </view>
+        </view>
+    </swiper-item>
+</swiper>

@@ -1,0 +1,9 @@
+<view class="per_login">
+   <view class="per_form">
+        <input  maxlength="11" placeholder="验证码" type="tel" class="code"/>
+        <text class="tips">您也可以<text class="keynote">通过语音获取验证码</text>,客服将给您致电,请您注意接听。</text>
+        <input  maxlength="11" placeholder="密码（长度6-16位,支持数字、字母、字符）" type="passpassward" class="pas"/>      
+        <button class="over">完成</button>
+        <button class="wait_tips">等待46秒</button>
+   </view>
+</view>

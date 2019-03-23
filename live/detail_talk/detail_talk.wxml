@@ -1,0 +1,132 @@
+<view class="page">
+    <view class="page__bd">
+        <view class="section section_gap">
+            <view class="body-view" style="text-align: center;">
+                <video src="{{src}}"></video>
+            </view>
+        </view>
+    </view>
+    
+    <view class="title">
+        <view class="title-item">走进证金</view>
+         <navigator url="../teacherdetail/teacherdetail" hover-class="none">
+            <view class="title-share">
+            <image src="../../images/live_touxiang.png" class="teacher" mode="aspectFill"/>
+            <text>证金出品</text>
+            </view>
+         </navigator>
+        <view class="title-share" bindtap="translate">
+          <image src="../../images/live_candle.png" class="teacher" style="width:30rpx;height:40rpx;" mode="aspectFill"/>
+          <text >节目单</text>
+        </view>
+    </view>
+    <view class="report">
+        <view class="{{bindclick?'reportpspread':'reportp'}}"><image src="../../images/live_report.png" class="reportpimg"  mode="aspectFill"/>证金贵金属（www.zhengjin99.com）是中国金融在线集团（NASDAQ：JRJC）旗下品牌，是拥有纳斯达克上市公司背景的贵金属及大宗商品投资交易平台。证金贵金属包括：天津证金贵金属经营有限公司（天津贵金属交易所第212号会员单位）。</view>
+        <view><image src="../../images/live_shouqi.png" class="{{bindclick?'sprend':'fold'}}"  mode="aspectFill" bindtap="bindclick"/></view>
+    </view>
+      <scroll-view class="chart" scroll-y="true" style="height:200px;" scroll-top="{{scrollTop}}" >
+        <view class="chart_left">
+            <image src="../../images/live_chattx01.png" class="chart_leftpic" mode="aspectFill"/>
+            <view class="chart_lefttext">
+                <view class="chart_lefttextarrow"></view>
+                哈喽哈，我是证金VIP用户，请问最近有没有什么好的产品推荐？
+            </view>
+        </view>
+        <view class="chart_right">
+            <view class="chart_righttext">
+                <view class="chart_righttextarrow"></view>
+                哈喽哈，我是证金VIP用户，请问最近有没有什么好的产品推荐？
+            </view>
+            <image src="../../images/live_chattx02.png" class="chart_rightpic" mode="aspectFill"/>
+        </view>
+        <view class="chart_left">
+            <image src="../../images/live_chattx01.png" class="chart_leftpic" mode="aspectFill"/>
+            <view class="chart_lefttext">
+                <view class="chart_lefttextarrow"></view>
+                哈喽哈，我是证金VIP用户，请问最近有没有什么好的产品推荐？
+            </view>
+        </view>
+        <view class="chart_left">
+            <image src="../../images/live_chattx01.png" class="chart_leftpic" mode="aspectFill"/>
+            <view class="chart_lefttext">
+                <view class="chart_lefttextarrow"></view>
+                哈喽哈，我是证金VIP用户，请问最近有没有什么好的产品推荐？
+            </view>
+        </view>
+        <view class="chart_left">
+            <image src="../../images/live_chattx01.png" class="chart_leftpic" mode="aspectFill"/>
+            <view class="chart_lefttext">
+                <view class="chart_lefttextarrow"></view>
+                哈喽哈，我是证金VIP用户，请问最近有没有什么好的产品推荐？
+            </view>
+        </view>
+        <view class="chart_right" hidden="{{hiddenint}}">
+            <view class="chart_righttext">
+                <view class="chart_righttextarrow"></view>
+                {{inputValue}}
+            </view>
+            <image src="../../images/live_chattx02.png" class="chart_rightpic" mode="aspectFill"/>
+        </view>
+    </scroll-view>
+    <view class="buttonarea">
+        <view class="btn-area">
+            <input placeholder="这个只有在按钮点击的时候才聚焦" class="btn-input" bindinput="bindKeyInput">使得输入框获取焦点......</input>
+        </view>
+        <view>
+            <button bindtap="bindopen" class="btn-showbutton">发送</button>
+        </view>
+        
+    </view>
+    
+    <view class="programme_whole" animation="{{animation}}"  hidden="{{hiddenLoading}}">
+    <view class="programme">
+        <view class="programmep" >节目单</view>
+        <view><image src="../../images/live_close.png" class="programmeclose" mode="aspectFill" bindtap="bindclose"/></view>
+    </view>
+
+    <view class="programmecontent">
+         <scroll-view  scroll-y="true" style="height:720rpx;">
+            <view class="recommend-content-whole">
+              
+                <view class="recommend-content">
+                    <image src="../../images/live_studiopic.jpg" class="recommend-content-img"  mode="aspectFill"/>
+                    <view class="recommend-content-word">
+                      <text class="recommend-content-p1">《大咖工作室》20160619期</text>
+                      <text class="recommend-content-p2">赵宇、小娟</text>
+                      <text class="recommend-content-p2">9:00-10:00直播已经结束</text>
+                      <text class="recommend-content-p3">回看</text>
+                    </view>
+                </view>
+                <view class="recommend-content">
+                    <image src="../../images/live_studiopic.jpg" class="recommend-content-img"  mode="aspectFill"/>
+                    <view class="recommend-content-word">
+                      <text class="recommend-content-p1">《大咖工作室》20160619期</text>
+                      <text class="recommend-content-p2">赵宇、小娟</text>
+                      <text class="recommend-content-p2">9:00-10:00直播已经结束</text>
+                      <text class="recommend-content-p4">正在直播</text>
+                    </view>
+                </view>
+                <view class="recommend-content">
+                    <image src="../../images/live_studiopic.jpg" class="recommend-content-img"  mode="aspectFill"/>
+                    <view class="recommend-content-word">
+                      <text class="recommend-content-p1">《大咖工作室》20160619期</text>
+                      <text class="recommend-content-p2">赵宇、小娟</text>
+                      <text class="recommend-content-p2">9:00-10:00直播已经结束</text>
+                      <text class="recommend-content-p4">正在直播</text>
+                    </view>
+                </view>
+                <view class="recommend-content">
+                    <image src="../../images/live_studiopic.jpg" class="recommend-content-img"  mode="aspectFill"/>
+                    <view class="recommend-content-word">
+                      <text class="recommend-content-p1">《大咖工作室》20160619期</text>
+                      <text class="recommend-content-p2">赵宇、小娟</text>
+                      <text class="recommend-content-p2">9:00-10:00直播已经结束</text>
+                      <text class="recommend-content-p3">回看</text>
+                    </view>
+                </view>
+            </view>
+        </scroll-view> 
+     </view>
+   </view>
+
+</view>

@@ -1,0 +1,16 @@
+page{
+    background:#fff;
+    font-family: "微软雅黑";
+}
+.question{
+    padding:10rpx 15rpx 0 15rpx;
+    font-size:30rpx;
+    color:#333;
+}
+.allAnswer{
+    padding:10rpx 15rpx 0 15rpx;
+}
+.allAnswer view{
+    font-size:28rpx;
+    color:#666;
+}

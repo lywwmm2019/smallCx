@@ -1,0 +1,8 @@
+<view class="question">
+    津贵所不能摘牌,提示"您目前所在的阶梯无该产品摘牌权限"怎么办？
+</view>
+<view class="allAnswer">
+    <view>
+        您的期初权益资金不符合购买该产品的权限，则会出现这样的提示，请交易其它产品。
+    </view>
+</view>

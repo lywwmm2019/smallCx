@@ -1,0 +1,7 @@
+.introduction{
+    font-family: 'Microsoft Yahei';
+    font-size:36rpx;
+    color:red;
+    padding:20rpx;
+    display: block;
+}

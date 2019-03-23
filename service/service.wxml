@@ -1,0 +1,122 @@
+<<<<<<< .mine
+<!--service/service.wxml-->
+<text>service/service.wxml</text>
+=======
+<view class="hq">
+    <image src="../images/service-jys.png" class="jyslogo" />
+    <view class="jysName">
+        <view class="jysNaChin">{{array[index]}}</view>
+        <view class="jysNaEng">GDAGV</view>
+    </view>
+    <view class="jysNum1">678176</view>
+    <view class="jysNum1">-6653/-0.97%</view>
+    <picker class="pick" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="traigle">
+        </view>
+    </picker>
+</view>
+<scroll-view scroll-y="true" style="height:{{windowHeight-117}}px;">
+  <view class="outer">
+        <view class="leftCont">
+            <image src="../images/service-tx.png" class="tx"/>
+        </view>
+        <view class="rightCont">
+            <view class="zwTime">客服 10:00</view>
+            <view class="listCon">
+                <image src="../images/service-guide.png" class="guide"></image>
+                <view>
+                     尊敬的用户您好，请问有什么问题能帮您解答？
+                     <navigator url="myService/myService" class="col disinline">转接人工客服</navigator>
+                </view>
+                <navigator url="details/details" class="col lineheight">1.如何开户？</navigator>
+                <navigator url="details/details" class="col lineheight">2.如何增加投资准确率？</navigator>
+                <navigator url="details/details" class="col lineheight">3.观看大咖工作室需要什么权限？</navigator>
+                <navigator url="details/details" class="col lineheight">4.观看大咖工作室需要什么权限？</navigator>
+                <navigator url="details/details" class="col lineheight">5.观看大咖工作室需要什么权限？</navigator>
+            </view>
+        </view>
+    </view>
+   <!-- <view class="yh">
+        <view class="rigCon">
+            <view class="pho">182****9215</view>
+            <view class="content">
+                您好
+            </view>
+        </view>
+        <view class="leftCont">
+            <image src="../images/service-tx.png" class="tx"/>
+        </view>
+    </view>
+    <view class="outer">
+        <view class="leftCont">
+            <image src="../images/service-tx.png" class="tx"/>
+        </view>
+        <view class="rightCont">
+            <view class="zwTime">客服 10:00</view>
+            <view class="listCon">
+                <view class="triangle-left"></view>
+                <view>您要找的问题是：</view>
+                <navigator url="details/details" class="col lineheight">您好</navigator>
+                <navigator url="details/details" class="col lineheight">你们的软件怎么用，我不会？</navigator>
+                <navigator url="details/details" class="col lineheight">证金有什么优势?</navigator>
+                <view>是否解决您的问题？</view>
+                <view class="yesno" hidden="{{chose}}">
+                    <text bindtap="display">是</text>
+                    <text bindtap="display1">否</text>
+                </view>
+                <view  hidden="{{yes}}">感谢您的咨询，祝您生活愉快！</view>
+                <view  hidden="{{no}}">很抱歉未能找到您要的答案，请咨询人共客服!</view>
+            </view>
+            <navigator url="myService/myService" class="kefuBtn">转人工客服</navigator>
+        </view>
+    </view>
+    <view class="outer">
+        <view class="leftCont">
+            <image src="../images/service-tx.png" class="tx"/>
+        </view>
+        <view class="rightCont">
+            <view class="zwTime">客服 10:00</view>
+            <view class="listCon">
+                <view class="triangle-left"></view>
+                <view>您要找的问题是：</view>
+                <navigator url="details/details" class="col lineheight">广贵中心手机软件登录不上，提示"账号不存在"怎么办？</navigator>
+                <navigator url="details/details" class="col lineheight">积分可以转让吗？</navigator>
+                <navigator url="details/details" class="col lineheight">在其他会员单位销户后能在我们公司开户吗？</navigator>
+                <navigator url="details/details" class="col lineheight">交易都会有积分吗？</navigator>
+                <navigator url="details/details" class="col lineheight">查看更多</navigator>
+                <view>是否解决您的问题？</view>
+                <view class="yesno" hidden="{{chose}}">
+                    <text bindtap="display">是</text>
+                    <text bindtap="display1">否</text>
+                </view>
+                <view  hidden="{{yes}}">感谢您的咨询，祝您生活愉快！</view>
+                <view  hidden="{{no}}">很抱歉未能找到您要的答案，请咨询人共客服!</view>
+            </view>
+            <navigator url="myService/myService" class="kefuBtn">转人工客服</navigator>
+        </view>
+    </view>-->
+    <view class="yh" hidden="{{flag}}">
+        <view class="rigCon">
+            <view class="pho">{{phone}}</view>
+            <view class="contPos">
+                <image src="../images/service-guide.png" class="guide2"></image>
+                <view class="content1">
+                    {{text}}
+                </view>
+            </view>
+            
+        </view>
+        <view class="leftCont">
+            <image src="{{src}}" class="tx"/>
+        </view>
+    </view>
+</scroll-view> 
+<view class="inpArea">
+    <form>
+        <input type="text" placeholder="请输入你想咨询的问题..." placeholder-style="font-size:28rpx;font-family:'微软雅黑'" class="content" id="message" bindinput="bindChange"/>
+        <button class="sent" form-type="reset" bindtap="send">发送</button>
+    </form>
+</view>
+<view hidden="{{toastHidden}}" class="toastHidden">
+        请输入内容
+</view>>>>>>>> .r21931

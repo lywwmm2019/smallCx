@@ -1,0 +1,7 @@
+<view class="view">
+    <scroll-view class="chat">
+        <view class="chatTip">
+            聊天记录请在个人中心-咨询记录中查看
+        </view>
+    </scroll-view>
+</view>

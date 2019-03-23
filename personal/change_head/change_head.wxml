@@ -1,0 +1,25 @@
+<!--修改头像-->
+<view class="change_head">
+  <view class="change_pic" bindtap="bindOpenImg">
+     <text class="label">修改头像</text>
+     <image src="{{head}}" class='pic'></image>
+  </view>
+  <navigator url="../change_nickname/change_nickname?title=navigate" hover-class="navigator-hover">
+  <view class="change_name">
+     <text class="label1">修改昵称</text>
+     <view class="changeName_right">
+        <text class="name">290kka</text>
+        <image src="/images/per_throw.png" class='throw'></image>
+     </view>
+  </view>
+  </navigator>
+  <navigator url="../change_password/change_password?title=navigate" hover-class="navigator-hover">
+   <view class="change_password">
+     <text class="label1">修改密码</text>
+     <view class="changeName_right">    
+        <image src="/images/per_throw.png" class='throw'></image>
+     </view>
+  </view>
+ </navigator>
+  <view class="quit" bindtap="loginOut"><text>退出当前账号</text></view>
+</view>

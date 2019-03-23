@@ -1,0 +1,122 @@
+
+<view class="shadow">
+   <image src="/images/person_clock.png" class="clock"></image>
+   <text>交易所手机软件下载及使用</text>
+</view>
+<!--天通金-->
+<view class="app_download">
+   <view class="icon">
+      <image src="/images/person_brand01.jpg" class="pic"></image>
+      <text>天通金</text>
+   </view>
+   <view class="download_btn">
+      <text>天津贵金属交易所</text>
+      <view class="down">下载</view>
+     
+   </view>
+</view>
+<!--证金-->
+<view class="app_download">
+   <view class="icon">
+      <image src="/images/person_brand02.jpg" class="pic"></image>
+      <text>证金</text>
+   </view>
+   <view class="download_btn">
+      <text>天津贵金属交易所</text>
+      <view class="down">下载</view>
+     
+   </view>
+</view>
+<!--青岛汇海-->
+<view class="app_download">
+   <view class="icon">
+      <image src="/images/person_brand03.jpg" class="pic"></image>
+      <text>青岛汇海</text>
+   </view>
+   <view class="download_btn">
+      <text>青岛汇海交易所</text>
+      <view class="down">下载</view>
+     
+   </view>
+</view>
+<!--现货连售-->
+<view class="app_download">
+   <view class="icon">
+      <image src="/images/person_brand04.jpg" class="pic"></image>
+      <text>现货连售</text>
+   </view>
+   <view class="download_btn">
+      <text>湘商商品交易中心</text>
+      <view class="down">下载</view>
+     
+   </view>
+</view>
+<!--模拟连售-->
+<view class="app_download">
+   <view class="icon">
+      <image src="/images/person_brand04.jpg" class="pic"></image>
+      <text>模拟连售</text>
+   </view>
+   <view class="download_btn">
+      <text>湘商商品交易中心</text>
+      <view class="down">下载</view>
+     
+   </view>
+</view>
+<!--证金广贵通行情-->
+<view class="app_download">
+   <view class="icon">
+      <image src="/images/person_brand05.jpg" class="pic"></image>
+      <text>证金广贵通行情</text>
+   </view>
+   <view class="download_btn">
+      <text>广东贵金属交易中心</text>
+      <view class="down">下载</view>
+     
+   </view>
+</view>
+<!--粤贵宝模拟-->
+<view class="app_download">
+   <view class="icon">
+      <image src="/images/person_brand06.jpg" class="pic"></image>
+      <text>粤贵宝模拟</text>
+   </view>
+   <view class="download_btn">
+      <text>广东贵金属交易中心</text>
+      <view class="down">下载</view>
+     
+   </view>
+</view>
+<!--粤贵宝实盘-->
+<view class="app_download">
+   <view class="icon">
+      <image src="/images/person_brand06.jpg" class="pic"></image>
+      <text>粤贵宝实盘</text>
+   </view>
+   <view class="download_btn">
+      <text>广东贵金属交易中心</text>
+      <view class="down">下载</view>
+     
+   </view>
+</view>
+<view class="shadow">
+   <image src="/images/person_clock.png" class="clock"></image>
+   <text>无法使用APP时</text>
+</view>
+ <!--委托下单-->
+  <view class="per_nr">
+    <view class="per_nr_zuo">
+      <image src="/images/person_down.png"  class="per_tb"></image>
+      <text>快速开户</text>
+    </view>
+    <view class="per_nr_you">
+        <image src="/images/per_throw.png" class="per_jt"></image>
+    </view>
+    <view class="clear"></view>
+  </view>
+  <view class="service_time">
+    <text class="title">服务时间</text>
+    <text class="content">夏令时：周一早上8点开盘，凌晨4点休市；周二到周五是早上6点开盘，凌晨4点休市;</text>
+    <text class="content">冬令时：周一早上9点开盘，凌晨4点休市；周二到周五是早上7点开盘，凌晨4点休市;</text>
+    <text class="content">（每年11月份第二个星期的星期一开始到第二年三月份第二个星期的星期六为冬令时）</text>
+  </view>

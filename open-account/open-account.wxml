@@ -1,0 +1,40 @@
+<view class="openList" >
+    <image class="openLogo" src="../images/open-account-gg.png"/>
+    <view class="openCon">
+        <view class="openTop">
+            <text class="jys">广贵中心</text>
+            <view  class="jysBtn" bindtap="kh">立即开户</view>
+        </view>
+        <view class="jysName">
+            广东省贵金属交易中心
+        </view>
+    </view>
+</view>
+<view class="marbott"></view>
+<view class="openList">
+    <image class="openLogo" src="../images/open-account-jg.png"/>
+    <view class="openCon">
+        <view class="openTop">
+            <text class="jys">津贵所</text>
+            <view class="jysBtn" bindtap="kh">立即开户</view>
+        </view>
+        <view class="jysName">
+            天津贵金属交易所
+        </view>
+    </view>
+</view>
+<view class="openList">
+    <image class="openLogo" src="../images/open-account-qd.png"/>
+    <view class="openCon">
+        <view class="openTop">
+            <text class="jys">青岛汇海</text>
+            <view  class="jysBtn" bindtap="kh">立即开户</view>
+        </view>
+        <view class="jysName">
+            青岛汇海大宗商品现货交易市场
+        </view>
+    </view>
+</view>
+<toast  hidden="{{display}}" duration="1500" bindchange="displayNone">
+        开户成功
+</toast>

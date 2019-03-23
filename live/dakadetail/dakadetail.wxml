@@ -1,0 +1,155 @@
+<view class="container">
+    <view id="dakastudio" class="dakastudio" >
+        <view class="item">
+            <image src="../../images/live_studiopic.jpg" class="item-img"  mode="aspectFill"/>
+            <view class="item-text">
+              <view class="list-title">打好本月收官之战</view>
+              <view class="list-type">主题：秦保家</view>
+              <view class="list-word">直播风格：首席前瞻大布局，稳准狠</view>
+            </view>
+        </view>
+    </view>
+ <view class="top_vedio">
+  <view class="board">
+    <view class="board-item">
+      <text class=" {{selected?'red':'default'}}" bindtap="selected">直播区</text>   
+    </view>
+    <view class="board-item">
+      <text class="{{selected1?'red':'default'}}" bindtap="selected1">互动区</text>
+    </view> 
+     <view class="board-item">
+      <text class="{{selected2?'red':'default'}}" bindtap="modalTap">精华区</text>
+    </view> 
+   </view>  
+  </view>
+ 
+  <!--视频直播-->
+  <view class="scroll-view_H">
+  <view id="live" class="{{selected?'scroll-view-item_H1':'scroll-view-item_H2'}}" >
+    <!--直播室--> 
+    <view class="dakastudio" style="background:#fff;">
+     <scroll-view scroll-y="true" style="height:700rpx;margin:0rpx;">
+        <view class="itemwhole">
+          <view class="item">
+              <image src="../../images/live_chattx01.png" class="item-imgsmall"  mode="aspectFill"/>
+              <view class="item-textsmall">
+                <view class="list-title"><view class="list-title01">王立峰</view><view class="list-title02">昨天 23：51</view></view>
+                <view class="list-type">重要提示：建议在收盘前尽量平掉日内短线仓位，避免被动持仓，以规避隔夜可能带来的不确定性风险。</view>
+              </view>
+          </view>
+        </view>
+        <view class="itemwhole">
+          <view class="item">
+            <image src="../../images/live_chattx02.png" class="item-imgsmall"  mode="aspectFill"/>
+              <view class="item-textsmall">
+                <view class="list-title"><view class="list-title01">王立峰</view><view class="list-title02">昨天 23：51</view></view>
+                <view class="list-type">重要提示：建议在收盘前尽量平掉日内短线仓位，避免被动持仓，以规避隔夜可能带来的不确定性风险。</view>
+              </view>
+            </view>
+        </view>
+        <view class="itemwhole">
+            <view class="item">
+                <image src="../../images/live_chattx01.png" class="item-imgsmall"  mode="aspectFill"/>
+                <view class="item-textsmall">
+                  <view class="list-title"><view class="list-title01">王立峰</view><view class="list-title02">昨天 23：51</view></view>
+                  <view class="list-type">重要提示：建议在收盘前尽量平掉日内短线仓位，避免被动持仓，以规避隔夜可能带来的不确定性风险。</view>
+                </view>
+            </view>
+        </view>
+        <view class="itemwhole">
+            <view class="item">
+                <image src="../../images/live_chattx02.png" class="item-imgsmall"  mode="aspectFill"/>
+                <view class="item-textsmall">
+                  <view class="list-title"><view class="list-title01">王立峰</view><view class="list-title02">昨天 23：51</view></view>
+                  <view class="list-type">重要提示：建议在收盘前尽量平掉日内短线仓位，避免被动持仓，以规避隔夜可能带来的不确定性风险。</view>
+                </view>
+            </view>
+        </view>
+        <view class="itemwhole">
+            <view class="item">
+                <image src="../../images/live_chattx01.png" class="item-imgsmall"  mode="aspectFill"/>
+                <view class="item-textsmall">
+                  <view class="list-title"><view class="list-title01">王立峰</view><view class="list-title02">昨天 23：51</view></view>
+                  <view class="list-type">重要提示：建议在收盘前尽量平掉日内短线仓位，避免被动持仓，以规避隔夜可能带来的不确定性风险。</view>
+                </view>
+            </view>
+        </view>
+     </scroll-view>
+     <view class="bindnow"><button class="btn-bindnow" bindtap="modalTap">立即绑定</button></view>
+     </view>
+  </view>
+  <!--互动区-->
+    <view id="interact" class="{{selected1?'scroll-view-item_H1':'scroll-view-item_H2'}}" >
+        <view class="dakastudio" style="background:#fff;">
+        <scroll-view scroll-y="true" style="height:700rpx;"> 
+        <view class="itemwhole">
+            <view class="item">
+                <image src="../../images/live_chattx01.png" class="item-imgsmall"  mode="aspectFill"/>
+                <view class="item-textsmall">
+                  <view class="list-title"><view class="list-title01">王立峰</view><view class="list-title02">昨天 23：51</view></view>
+                  <view class="list-type">重要提示：建议在收盘前尽量平掉日内短线仓位，避免被动持仓，以规避隔夜可能带来的不确定性风险。</view>
+                </view>   
+            </view>
+            <view class="itemgrey">
+            <view class="itemgreyarrow"></view>
+                    <image src="../../images/live_chattx02.png" class="item-imgsmall02"  mode="aspectFill"/>
+                    <view class="itemgrey-textsmall">
+                      <view class="list-title"><view class="list-title01">王立峰</view><view class="list-title02">昨天 23：51</view></view>
+                      <view class="list-type">您客气了。</view>
+                    </view>
+            </view>
+        </view>
+        <view class="itemwhole">
+            <view class="item">
+                <image src="../../images/live_chattx02.png" class="item-imgsmall"  mode="aspectFill"/>
+                <view class="item-textsmall">
+                  <view class="list-title"><view class="list-title01">王立峰</view><view class="list-title02">昨天 23：51</view></view>
+                  <view class="list-type">重要提示：建议在收盘前尽量平掉日内短线仓位，避免被动持仓，以规避隔夜可能带来的不确定性风险。</view>
+                </view>
+            </view>
+            <view class="itemgrey">
+                <view class="itemgreyarrow"></view>
+                  <image src="../../images/live_chattx01.png" class="item-imgsmall02"  mode="aspectFill"/>
+                  <view class="itemgrey-textsmall">
+                    <view class="list-title"><view class="list-title01">王立峰</view><view class="list-title02">昨天 23：51</view></view>
+                    <view class="list-type">您客气了。</view>
+                  </view>
+            </view>
+            
+        </view>
+        <view class="itemwhole">
+          <view class="item">
+              <image src="../../images/live_chattx01.png" class="item-imgsmall"  mode="aspectFill"/>
+              <view class="item-textsmall">
+                <view class="list-title"><view class="list-title01">王立峰</view><view class="list-title02">昨天 23：51</view></view>
+                <view class="list-type">重要提示：建议在收盘前尽量平掉日内短线仓位，避免被动持仓，以规避隔夜可能带来的不确定性风险。</view>
+              </view>
+          </view>
+        </view>
+        <view class="itemwhole">
+          <view class="item">
+              <image src="../../images/live_chattx02.png" class="item-imgsmall"  mode="aspectFill"/>
+              <view class="item-textsmall">
+                <view class="list-title"><view class="list-title01">王立峰</view><view class="list-title02">昨天 23：51</view></view>
+                <view class="list-type">重要提示：建议在收盘前尽量平掉日内短线仓位，避免被动持仓，以规避隔夜可能带来的不确定性风险。</view>
+              </view>
+          </view>
+         </view>
+        </scroll-view>
+       <view class="bindnow"><button class="btn-bindnow" bindtap="modalTap">立即绑定</button></view>
+      </view>       
+    </view>  
+    <!--精华区-->
+         
+    <modal confirm-text="立即绑定"  cancel-text="返回"  hidden="{{modalHidden}}"  bindconfirm="toastShow" bindcancel="modalChange">
+          <view class="windowpupimg"><image src="../../images/live_windowpup.jpg" style="width:100%;height:100%"  mode="aspectFill"/></view>
+          <view class="windowpuptext">绑定直播室则获得该直播室的观看权限同时解除其他直播室的观看权限，直播室权限每月可变更一次，您是否要绑定该直播室</view>  
+    </modal>
+    <view><toast hidden="{{status}}" duration="3000" bindchange="toastHide">成功</toast></view>
+   <view id="cream" class="scroll-view-item_H1" >
+          <view class="windowpuptextw">VIP工作室只能从电脑上关注和取消</view>
+          <view class="windowpuptop"></view> 
+    </view>       
+   
+
+</view>
